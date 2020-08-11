@@ -83,7 +83,7 @@ copyright = "Copyright &copy; 2020 Leela's Recipes"
 # Instagram feed
 [params.instafeed]
 enable = true
-access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
+access_token = "###"
 
 # social site
 [[params.social]]
