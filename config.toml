@@ -70,13 +70,13 @@ author = "Leela"
 author_image = "images/banner-img.png"
 bio = "I’m a Recipe Developer."
 # Contact info
-mobile = "+91 123 456 78"
-email = "info@example.com"
+mobile = "content hidden"
+email = "content hidden"
 address = "India"
 # Contact Form Action
 contact_form_action = "#"
 # Google Analitycs
-google_analitycs_id = "Your ID"
+google_analitycs_id = "UA-48712319-10"
 # copyright
 copyright = "Copyright &copy; 2020 Leela's Recipes"
 
