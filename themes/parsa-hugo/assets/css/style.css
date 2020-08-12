@@ -235,7 +235,7 @@ body {
 
 ol,
 ul {
-  list-style-type: none;
+  /* list-style-type: disc; */
   margin: 0px;
 }
 
