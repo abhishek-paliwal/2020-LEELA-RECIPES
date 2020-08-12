@@ -91,13 +91,13 @@ icon = "ti-facebook"
 URL = "#"
 
 [[params.social]]
-icon = "ti-twitter-alt"
-URL = "#"
+icon = "ti-instagram"
+URL = "https://www.instagram.com/leelasrecipe"
 
 [[params.social]]
-icon = "ti-linkedin"
-URL = "#"
+icon = "ti-pinterest"
+URL = "https://in.pinterest.com/leelasrecipe/"
 
 [[params.social]]
-icon = "ti-github"
-URL = "#"
+icon = "ti-youtube"
+URL = "https://www.youtube.com/channel/UCgMWHF6dNmRVZp6J4FZj51g"
