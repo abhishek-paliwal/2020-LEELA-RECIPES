@@ -4,7 +4,7 @@ date: 2020-08-10T18:46:10+06:00
 description: "Dhania Panjiri is used widely as an offering across the country during Janmashtami"
 type: "featured"
 image: "images/masonary-post/2020/dhaniya-panjiri-1.jpg"
-url : /dhaniya-panjiri/
+url: /dhaniya-panjiri/
 categories: 
   - "sweets"
 tags:
