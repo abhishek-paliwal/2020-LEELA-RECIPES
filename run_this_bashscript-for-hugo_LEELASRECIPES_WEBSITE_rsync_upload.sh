@@ -145,7 +145,8 @@ FINAL_MSG="Hugo site has been uploaded to server. Have fun! But not before check
 success "$FINAL_MSG" ;
 say "$FINAL_MSG" ;
 
-## Opening website.
+## Opening website (Works on MAC OS only).
+echo ">>>> Opening website = https://www.leelasrecipes.com"
 open https://www.leelasrecipes.com
 
 ##################################################################
