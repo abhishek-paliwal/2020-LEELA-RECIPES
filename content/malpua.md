@@ -60,8 +60,8 @@ Serves : for 3-4
 
 ### Tips:
 
-*Let the Malpua batter rest for at least 20 min for a better flavour.
-*You can also add some green cardamom powder, saffron & rose water in your Malpua for more flavours.
-*Make sure the batter is lump-free and smooth.
-*The ghee should be very moderately hot. Do not fry the Malpua in very hot ghee otherwise, they will be raw from inside.
-*Use a shallow non-stick pan to fry the Malpua.
+* Let the Malpua batter rest for at least 20 min for a better flavour.
+* You can also add some green cardamom powder, saffron & rose water in your Malpua for more flavours.
+* Make sure the batter is lump-free and smooth.
+* The ghee should be very moderately hot. Do not fry the Malpua in very hot ghee otherwise, they will be raw from inside.
+* Use a shallow non-stick pan to fry the Malpua.
