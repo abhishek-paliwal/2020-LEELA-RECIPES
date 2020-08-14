@@ -3,6 +3,7 @@ title: "About"
 date: 2020-08-07T11:46:10+06:00
 description: "I am the hands behind the videos and recipes you see on this website."
 image: "images/author.jpg"
+url: /about/
 ---
 My name is Leela. I am the hands behind the videos and recipes you see on this website.
 

@@ -4,6 +4,7 @@ date: 2020-08-14T10:16:10+06:00
 description: "Malpua is a popular dessert recipe of North India. Malpua is a part of Chappan Bhog offered to God."
 type: "post"
 image: "images/masonary-post/2020/malpua-1.jpg"
+url: /malpua/
 categories: 
   - "sweets"
 tags:

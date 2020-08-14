@@ -4,6 +4,7 @@ date: 2020-08-08T11:26:10+06:00
 description: "Papaya Smoothie is so good, you can even serve it as dessert. This papaya smoothie will keep you healthy, nice and cool on a day to day busy life."
 type: "post"
 image: "images/masonary-post/2020/papaya-smoothie-2.jpg"
+url: /papaya-smoothie/
 categories: 
   - "fruity"
 tags:

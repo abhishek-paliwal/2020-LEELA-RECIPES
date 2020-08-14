@@ -4,6 +4,7 @@ date: 2020-08-07T11:16:20+06:00
 description: " Punjabi Chola masala is one of the most popular curry dishes from India. Chole is the name for the larger and lighter coloured chickpea."
 type: "post"
 image: "images/masonary-post/2020/punjabi-chola-2.jpg"
+url: /punjabi-chola/
 categories: 
   - "punjabi"
 tags:
