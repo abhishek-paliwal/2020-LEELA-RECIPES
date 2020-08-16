@@ -34,7 +34,7 @@ Serves : for 2
 - 1 ripe papaya
 - 1 cup milk
 - 1/4 cup sugar or any other sweetener like honey
-- 2 tbs.  Milk Cream
+- 2 tbsp  Milk Cream
 - 1/2 cup ice cubes
 - For garnishing: Cardamom, Papaya chunks, Cashew, Almond, Resins.
 

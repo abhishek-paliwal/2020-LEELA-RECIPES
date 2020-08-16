@@ -56,9 +56,9 @@ Serves : for 3-5
 - 1 cups pureed tomatoes 
 - 2 teaspoons Chole Masala
 - 1 Spoon Dry Mango Powder
-- 1 teaspoon Kasmiri red chili powder or to taste
-- 1/2 teaspoon turmericPowder
-- 1 teaspoon Coriender powder
+- 1 teaspoon Kashmiri red chili powder or to taste
+- 1/2 teaspoon turmeric Powder
+- 1 teaspoon Coriander powder
 - 1 teaspoon Fennel powder
 - 1 Chola Masala
 - Salt to taste
@@ -83,7 +83,7 @@ Serves : for 3-5
 9. Now add the tomato puree , stir and let it cook for few minutes.
 10. Add bay leaf, Coriander Powder, Turmeric, Kashmiri Red Chili powder (for Colour), Fennel Powder, Salt to taste.
 11. Add Chola Masala, Dry Mango Powder(Amchur Powder).
-12. Add 1/2 cup water and stir well so that it not get stick in bottom, add Kasuri Methi & LId for few minute.
+12. Add 1/2 cup water and stir well so that it not get stick in bottom, add Kasuri Methi & Lid for few minute.
 13. Add the chickpeas next and stir will all the chickpeas are coated with the spices, around 2 minutes.
 14. Garnish with some ghee & Coriander leaf.
 

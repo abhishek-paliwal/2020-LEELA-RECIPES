@@ -31,12 +31,12 @@ Serves : for 6-8
 
 ### INGREDIENTS:
 
-- 3 boul chickpea flour
+- 3 bowl chickpea flour
 - Ghee 500gms 
 - 1.5 cup sugar 
 - 1.5 cup  water for sugar syrup & 1 cup for knitting chickpea flour
 - saffron 
-- rose water 1spn.
+- rose water 1 tbsp
 - Garnish: Cardamom, silver leaf, Almond, Pistachio
 
 ### HOW TO MAKE BESAN CHAKKI:
@@ -45,8 +45,8 @@ Serves : for 6-8
 2. Add water to knead a stiff dough. Then break small lump from the kneaded chickpea dough, bind it and press gently to give muthia shape. 
 3. Heat ghee & fry the muthia, on low flame until they turn golden brown in color.
 4. Let the muthias cool down a little, grind the roasted muthia chunks to prepare a grainy textured mixture.
-5. Now it's time to prepare the sugar syrup for the chakki. Take 1.5 Boul sugar in a pan. Add 1½ cup water to the pan and then turn on the flame. Cook it until sugar dissolve completly put saffron & cardamom in the sugar syrup for taste & aroma.
-6. Check the consistancy, if there is1and half long thread than the syrup is ready.
+5. Now it's time to prepare the sugar syrup for the chakki. Take 1.5 Bowl sugar in a pan. Add 1½ cup water to the pan and then turn on the flame. Cook it until sugar dissolve completely put saffron & cardamom in the sugar syrup for taste & aroma.
+6. Check the consistency, if there is1and half long thread than the syrup is ready.
 7. Put churma to the pan & roast it a little (at least for 5 min.) with 4Tbsp. Ghee.
 8. Add churma to the sugar syrup mix well.
 8. Take the ghee then grease the plate with the ghee.

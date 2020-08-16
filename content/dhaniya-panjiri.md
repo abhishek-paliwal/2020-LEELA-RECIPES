@@ -16,7 +16,7 @@ The significance of this prasad not only remains religiously important but is al
 
 > It is counted as one of the best sweet prasad for lord Krishna.
 
-### BENIFITS:
+### BENEFITS:
 
 1. Coriander powder is known to improve digestion.
 2. Help in lowering bad cholesterol.
@@ -38,7 +38,7 @@ Serves : for 3-4
 
 ### INGREDIENTS:
 
-- 2 bowl coriender Powder
+- 2 bowl coriander Powder
 - Ghee 50 gms 
 - 1 cup Desiccated Coconut
 - 1 cup sugar Powder

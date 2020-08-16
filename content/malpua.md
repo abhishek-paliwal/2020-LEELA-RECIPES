@@ -11,9 +11,9 @@ tags:
   - "flour"
 ---
 
-To prepare this mouth-watering delicacy, all you need is wheat flour, Ghee, Sugar & some easy available home ingidents. Malpua is deep fried in ghee & better known to be crispy on the outside and soft on the inside, which will melt in your mouth in just a minute. 
+To prepare this mouth-watering delicacy, all you need is wheat flour, Ghee, Sugar & some easy available home ingredients. Malpua is deep fried in ghee & better known to be crispy on the outside and soft on the inside, which will melt in your mouth in just a minute. 
 
-Ghee is traditionally used for frying malpura but you can use oil  for deep fry but i prefer to use Ghee instead of oil. For better taste you can pair it up with rabdi as well.
+Ghee is traditionally used for frying malpua but you can use oil  for deep fry but i prefer to use Ghee instead of oil. For better taste you can pair it up with rabdi as well.
 
  
 > Malpua is a popular dessert recipe of North India. Malpua is a part of Chappan Bhog offered to God. 
