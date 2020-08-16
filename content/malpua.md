@@ -44,19 +44,19 @@ Serves : for 3-4
 - saffron as required (food colour optional)
 
 
-### HOW TO MAKE MALUPA
+### HOW TO MAKE MALPUA
 
 
 1. Take a bowl and mix together Sugar & Water and mix well. 
 2. Put Wheat Flour to prepare the Malpua batter. 
 3. Add Yellow food colour/saffron, Black Pepper Next, add cardamom powder and mix well once again. 
-4. Ensure that the mixture has a pourable consistency and is not too thick. 
+4. Ensure that the mixture has a semi thick consistency and is not too thick. 
 5. Stir to a thick flowing batter without any lumps. cover and allow the batter to rest for 20 minutes. 
-6. Now, heat Ghee in a pan over low flame. When the Ghee is hot enough, pour a ladleful of the mixture and spread evenly.
+6. Now, heat Ghee in a pan over low flame. When the Ghee is hot enough, pour a ladle full of the mixture and spread evenly.
 7. Deep Fry in Ghee.
 8. Keep the flame low and cook until the malpua is golden from both sides.
 9. Remove the cooked malpua and drain the excess Ghee.
-10. Garnish with rabri,pistachio & almonds and serve immediately.
+10. Garnish with rabri, pistachio and almonds and serve immediately.
 
 
 ### Tips:
