@@ -69,7 +69,7 @@ Serves : for 3-4
 * Only use Desi ghee to fry edible gum.
 * Store in a air tight container in a refrigerator, so that you can enjoy it for at least 1 month. 
 * If the syrup is dense and leaves a1 thread like trail, it is ready to be used.
-* It is usually offer to loard krishna on the occasion of Janmastmi.
+* It is usually offer to lord krishna on the occasion of Janmastmi.
 
 
 ![](../images/masonary-post/2020/Dry-Fruit-Barfi-Panchmeva-Paag-3.jpg)
