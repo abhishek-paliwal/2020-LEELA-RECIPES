@@ -1,7 +1,7 @@
 # default config
 baseURL = "https://www.leelasrecipes.com"
 languageCode = "en-us"
-title = "Your home for delicious Indian Recipes"
+title = "Leela's Recipes - Your home for delicious Indian Recipes"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
@@ -53,7 +53,7 @@ name = "Contact"
 URL = "contact"
 weight = 3
 
-# deult parameter
+# defult parameter
 [params]
 logo = "images/logo.png"
 home = "Home"
