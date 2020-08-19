@@ -1,0 +1,83 @@
+/******* BEGIN: LEELASRECIPES CUSTOM CHANGES FOR CSS *****/
+html { font-size: 1em; }
+h1 { font-size: 2.074rem; }
+h2 { font-size: 1.728rem; }
+h3 { font-size: 1.44rem; }
+h4 { font-size: 1.2rem; }
+small { font-size: 0.833rem; }
+/******* END: LEELASRECIPES CUSTOM CHANGES FROM THE NATIVE BOOTSTRAP THEME *****/
+
+/*********************************************************/
+/******* ALL OTHER CHANGES *******************************/
+/*********************************************************/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 5px;
+	height: 0;
+    border: 5px solid  #ff0000 ;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/** TO FIT ANY IMAGE WITHIN DIV 100% **/
+img.sidebar-image {
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 40px ;
+}
+
+
+h3 {
+background-color:#fdefe6;
+padding: 5px;
+}
+
+
+/***************************************************************/
+/* Class for adding youtube red color to elements */
+.youtube {
+	color: #e52d27 ;
+}
+
+/* Class for adding div block for You-may-also-like section */
+.youmayalsolike {
+    /* color: white; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eee ;  /* fallback for old browsers */
+}
+
+/* inside 'a' element within class youmayalsolike*/
+.youmayalsolike a {
+    color: blue ;
+}
+
+
+/***************************************************************************/
+/***** IMPORTANT NOTE : KEEP the following block at the end of this css file *****/
+/****** This is to show the fontawesome icons for social media sharing *****/
+/***** Otherwise it won't work. So, keep it at the bottom of this file ****/
+.nav-item {
+    position: relative;
+    color: #FFFFFF ;
+    padding-right: 1rem ;
+}
+
+a.nav-item {
+    color: blue ;
+}
+a.nav-item:hover {
+    /* color: pink ; */
+    color: skyblue ;
+}
+/***************************************************************************/
+
+

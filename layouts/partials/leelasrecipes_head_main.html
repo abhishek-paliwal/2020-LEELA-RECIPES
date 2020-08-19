@@ -16,6 +16,13 @@
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
+  {{ "<!-- fontawesome 5.6.3 -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/fontawesome.all.min.css" rel="stylesheet">
+
+  <!-- LEELASRECIPES custom CSS -->
+  <link href="{{ .Site.BaseURL }}/css/leelasrecipes-custom-styling-from-wordpress.css" rel="stylesheet"
+    type="text/css" media="all">
+
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
