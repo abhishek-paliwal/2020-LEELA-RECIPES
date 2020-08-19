@@ -73,7 +73,6 @@ echo "#################################### Current PWD = $(pwd)" ;
 
 ## SEE IF EVERYTHING IS OKAY, ELSE PRESS CTRL+C to stop
 ## Audio notification (Mac OS only command.).
-say "If all is okay so far, then press ENTER key to continue ... " ;
 echo;
 read -p ">>>>>>>>>>>>>>>>> IF ALL IS OKAY SO FAR, then press ENTER key to continue ... " ;
 echo ;
@@ -84,8 +83,7 @@ function DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY () {
   ###### STEP 2a: DELETING EVERYTHING INSIDE PUBLIC DIRECTORY ###################################
   info ">>> BEGIN: DELETING EVERYTHING INSIDE PUBLIC DIRECTORY = $HUGO_PROJECT_DIR/public/* ..." ;
   ## Audio notification (Mac OS only command.).
-  say "Planning to delete everything inside hugo public directory to save space on hard disk." ;
-  #say "If okay, press ENTER key on command prompt... " ;
+  echo "Planning to delete everything inside hugo public directory to save space on hard disk." ;
 
   ## CONFRMATION TO SEE IF EVERYTHING IS OKAY, ELSE PRESS CTRL+C to stop
   #echo; read -p ">>>>>>>>>>>>>>>>> IF ALL IS OKAY, then press ENTER key to continue ... " ; echo ;
@@ -93,7 +91,7 @@ function DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY () {
   ## ACTUAL DELETING STARTS NOW...
   rm -rf $HUGO_PROJECT_DIR/public/* ;
   info ">>> END: DELETING EVERYTHING INSIDE PUBLIC DIRECTORY ..." ;
-  say "Everything deleted ... " ;
+  echo "Everything deleted ... " ;
 }
 ## END: DELETE FUNCTION DEFINITION ###############
 
@@ -101,7 +99,7 @@ function DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY () {
 #DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY
 
 ###### STEP 2b: RUNNING HUGO COMMAND ###################################
-say "Now creating whole website using hugo ... " ;
+echo "Now creating whole website using hugo ... " ;
 
 info ">>> BEGIN: HUGO command running ..." ;
 hugo ;
@@ -112,7 +110,7 @@ echo ;
 ###### STEP 3: SYNCING HUGO NOTES WEBSITE TO SERVER ###################################
 
 ## Audio notification (Mac OS only command.).
-say "Hugo site generated. Now R-syncing is about to begin. Please be ready to enter your password." ;
+echo "Hugo site generated. Now R-syncing is about to begin. Please be ready to enter your password." ;
 
 echo ">>> BEGIN: Final backup to DH server ..." ;
 ## Defining some variables
@@ -143,11 +141,11 @@ echo "########################################" ;
 ## FINAL AUDIO MESSAGE
 FINAL_MSG="Hugo site has been uploaded to server. Have fun! But not before checking it." ;
 success "$FINAL_MSG" ;
-say "$FINAL_MSG" ;
+echo "$FINAL_MSG" ;
 
 ## Opening website (Works on MAC OS only).
 echo ">>>> Opening website = https://www.leelasrecipes.com"
-open https://www.leelasrecipes.com
+# open https://www.leelasrecipes.com
 
 ##################################################################
 
