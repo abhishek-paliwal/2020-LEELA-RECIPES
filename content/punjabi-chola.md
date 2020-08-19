@@ -1,10 +1,12 @@
 ---
-title: "Punjabi Chola [Full recipe]"
+title: "Punjabi Chola"
 date: 2020-08-07T11:16:20+06:00
 description: " Punjabi Chola masala is one of the most popular curry dishes from India. Chole is the name for the larger and lighter coloured chickpea."
 type: "post"
 image: "images/masonary-post/2020/punjabi-chola-2.jpg"
 url: /punjabi-chola/
+youtube_video_id: "G3KINPTHk8Y"
+
 categories: 
   - "punjabi"
 tags:
@@ -17,9 +19,7 @@ Kabuli Chana in Hindustani, Chole is the name for the larger and lighter coloure
 
 ![](../images/masonary-post/2020/punjabi-chola-1.jpg)
 
-### WATCH FULL RECIPE VIDEO ON YOUTUBE   
-
-{{< youtube G3KINPTHk8Y >}}
+{{< leelasrecipes-youtube-video-embed >}}
 
 
 ### WRITTEN RECIPE BELOW 

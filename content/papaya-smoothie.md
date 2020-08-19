@@ -1,10 +1,12 @@
 ---
-title: "Papaya Smoothie [Full recipe]"
+title: "Papaya Smoothie"
 date: 2020-08-08T11:26:10+06:00
 description: "Papaya Smoothie is so good, you can even serve it as dessert. This papaya smoothie will keep you healthy, nice and cool on a day to day busy life."
 type: "post"
 image: "images/masonary-post/2020/papaya-smoothie-2.jpg"
 url: /papaya-smoothie/
+youtube_video_id: "0KP-DnbsB-k"
+
 categories: 
   - "fruity"
 tags:
@@ -17,9 +19,7 @@ Papaya Smoothie is so good, you can even serve it as dessert. This papaya smooth
 
 ![](../images/masonary-post/2020/papaya-smoothie-1.jpg)
 
-### WATCH FULL RECIPE VIDEO ON YOUTUBE   
-
-{{< youtube 0KP-DnbsB-k >}}
+{{< leelasrecipes-youtube-video-embed >}}
 
 
 ### WRITTEN RECIPE BELOW 

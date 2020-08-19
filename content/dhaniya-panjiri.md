@@ -1,10 +1,12 @@
 ---
-title: "Dhaniya Panjiri - Janmashtami Prasad [Full recipe]"
+title: "Dhaniya Panjiri - Janmashtami Prasad"
 date: 2020-08-10T18:46:10+06:00
 description: "Dhania Panjiri is used widely as an offering across the country during Janmashtami"
 type: "featured"
 image: "images/masonary-post/2020/dhaniya-panjiri-1.jpg"
 url: /dhaniya-panjiri/
+youtube_video_id: "7jbfZZNoL30"
+
 categories: 
   - "sweets"
 tags:
@@ -24,9 +26,8 @@ The significance of this prasad not only remains religiously important but is al
 
 ![](../images/masonary-post/2020/dhaniya-panjiri-2.jpg)
 
-### WATCH FULL RECIPE VIDEO ON YOUTUBE   
+{{< leelasrecipes-youtube-video-embed >}}
 
-{{< youtube 7jbfZZNoL30 >}}
 
 
 ### WRITTEN RECIPE BELOW 

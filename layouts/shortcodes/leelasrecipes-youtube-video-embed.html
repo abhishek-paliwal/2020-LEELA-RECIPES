@@ -1,0 +1,22 @@
+<div id="video-here">
+
+   <h3>WATCH RECIPE VIDEO BELOW FROM YOUTUBE: {{ .Page.Params.title }}</h3>
+
+    <p>(Please wait for a couple of seconds for loading)</p>
+
+    <p>
+        Direct Video link:
+        <a href="https://www.youtube.com/embed/{{ .Page.Params.youtube_video_id }}">
+            https://www.youtube.com/embed/{{ .Page.Params.youtube_video_id }}
+        </a>
+    </p>
+
+    {{ "<!-- BEGIN: YOUTUBE VIDEO BLOCK -->" | safeHTML }}
+
+        <div class="videoWrapper">
+            <iframe src="https://www.youtube.com/embed/{{ .Page.Params.youtube_video_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    {{ "<!-- END: YOUTUBE VIDEO BLOCK -->" | safeHTML }}
+
+</div>
