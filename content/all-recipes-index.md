@@ -1,0 +1,17 @@
+---
+title: "INDEX OF ALL RECIPES"
+date: 2020-08-19T01:46:10+06:00
+description: "This is a list of all recipes on this website. Just click and go."
+type: "featured"
+image: "images/featured-post/all-recipes-cover.jpg"
+url: /all-recipes/
+
+categories: 
+  - "all-recipes"
+tags:
+  - "all-recipes"
+---
+
+### This is a list of all recipes on this website. Just click and go.
+
+{{< leelasrecipes-all-recipes-index >}}

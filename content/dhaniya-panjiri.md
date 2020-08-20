@@ -2,7 +2,7 @@
 title: "Dhaniya Panjiri - Janmashtami Prasad"
 date: 2020-08-10T18:46:10+06:00
 description: "Dhania Panjiri is used widely as an offering across the country during Janmashtami"
-type: "featured"
+type: "post"
 image: "images/masonary-post/2020/dhaniya-panjiri-1.jpg"
 url: /dhaniya-panjiri/
 youtube_video_id: "7jbfZZNoL30"
