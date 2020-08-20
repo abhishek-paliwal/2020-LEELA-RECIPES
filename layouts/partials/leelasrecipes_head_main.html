@@ -24,8 +24,12 @@
     type="text/css" media="all">
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="shortcut icon" href="{{ `favicons/favicon-32x32.png` | absURL }} " type="image/x-icon">
+  <link rel="icon" href="{{ `favicons/favicon-32x32.png` | absURL }} " type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/favicons/favicon-16x16.png">
+  <link rel="manifest" href="{{ .Site.BaseURL }}/favicons/site.webmanifest">
 
 <!-- OTHER MAIN META STUFF -->
 

@@ -11,12 +11,18 @@ small { font-size: 0.833rem; }
 /******* ALL OTHER CHANGES *******************************/
 /*********************************************************/
 
+#video-here {
+    background: #fdefe6 ;
+    padding: 10px; 
+    border: 3px solid  #ff0000 ;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 5px;
 	height: 0;
-    border: 5px solid  #ff0000 ;
+    /* border: 5px solid  #ff0000 ; */
 }
 
 .videoWrapper iframe {
