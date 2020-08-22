@@ -1,6 +1,6 @@
 ---
 title: "Mava Modak and Dry Fruit Modak"
-date: 2020-08-17T10:12:20+06:00
+date: 2020-08-20T11:12:20+06:00
 description: "Modak is one of the most popular offerings to Lord ganesha and these days it is available in variety of options."
 type: "post"
 image: "images/masonary-post/2020/mava-modak-dry-fruit-modak-1.jpg"
