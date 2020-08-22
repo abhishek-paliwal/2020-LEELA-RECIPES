@@ -1,7 +1,7 @@
 ---
 title: "Dry Fruit Barfi - Panchmeva Paag"
 date: 2020-08-17T10:12:20+06:00
-description: "Dry fruit barfi also known as panchmewa paag is very mouth watering healthy and delicious recipe."
+description: "Dry fruit barfi also known as panchmeva paag is very mouth watering healthy and delicious recipe."
 type: "post"
 image: "images/masonary-post/2020/Dry-Fruit-Barfi-Panchmeva-Paag-1.jpg"
 url: /dry-fruit-barfi-panchmeva-paag/
@@ -13,7 +13,7 @@ tags:
   - "festival"
 ---
 
-Dry fruit barfi also known as panchmewa paag is very mouth watering healthy and delicious recipe. It is very simple recipe you can make it with easy available home ingredients or nuts in minimum time. 
+Dry fruit barfi also known as panchmeva paag is very mouth watering healthy and delicious recipe. It is very simple recipe you can make it with easy available home ingredients or nuts in minimum time. 
 
 > It can also be consumed in falahar or fast. Not only elders, but even kids also love it very much.
 
@@ -69,7 +69,7 @@ Serves : for 3-4
 * Only use Desi ghee to fry edible gum.
 * Store in a air tight container in a refrigerator, so that you can enjoy it for at least 1 month. 
 * If the syrup is dense and leaves a1 thread like trail, it is ready to be used.
-* It is usually offer to lord krishna on the occasion of Janmastmi.
+* It is usually offered to lord krishna on the occasion of Janmashtami.
 
 
 ![](../images/masonary-post/2020/Dry-Fruit-Barfi-Panchmeva-Paag-3.jpg)
