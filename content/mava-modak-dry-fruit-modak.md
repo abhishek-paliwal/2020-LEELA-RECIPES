@@ -90,3 +90,5 @@ Serves : for 3-4
 * It is usually offer to lord Ganesha on the occasion of Ganesh Chaturthi.
 
 ![](../images/masonary-post/2020/mava-modak-dry-fruit-modak-4.jpg)
+
+![](../images/masonary-post/2020/mava-modak-dry-fruit-modak-5.jpg)
