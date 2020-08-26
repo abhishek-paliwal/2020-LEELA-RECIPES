@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "Leela's Recipes - Your home for delicious Indian Recipes"
 theme = "parsa-hugo"
 summaryLength = "10"
-paginate = 6
+paginate = 12
 
 # output
 [outputs]
