@@ -1,6 +1,6 @@
 ---
 title: "Dry Fruit Barfi - Panchmeva Paag"
-date: 2020-08-17T10:12:20+06:00
+date: 2020-08-17T10:12:20
 description: "Dry fruit barfi also known as panchmeva paag is very mouth watering healthy and delicious recipe."
 type: "post"
 image: "images/masonary-post/2020/Dry-Fruit-Barfi-Panchmeva-Paag-1.jpg"
