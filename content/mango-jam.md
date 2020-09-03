@@ -1,0 +1,67 @@
+---
+title: "Mango Jam"
+date: 2020-09-03T09:26:20
+description: "Summer special Mango Jam recipe is a very mouth watering dish for kids and adults alike."
+type: "post"
+image: "images/masonary-post/2020/mango-jam-1.jpg"
+url: /mango-jam/
+youtube_video_id: "OGjysjYIKbc"
+
+categories: 
+  - "fruity"
+tags:
+  - "sweet"
+---
+
+Summer special Mango Jam recipe is a very mouth watering dish for kids and adults alike. 
+
+> This recipe is purely a homemade recipe there are no preservatives and any kind of chemicals in it. You can enjoy it with bread and Roti.
+
+
+ ![](../images/masonary-post/2020/mango-jam-2.jpg)
+
+{{< leelasrecipes-youtube-video-embed >}}
+
+
+### WRITTEN RECIPE BELOW 
+
+Preparation Time : 45 minutes
+
+Serves : for 2-4
+
+
+### INGREDIENTS
+
+- Mangoes - 2
+- Sugar - 300 gms
+- Lemon Juice
+- Cardamom Powder 1/2 spoon
+- Cinnamon Powder 1/2 Spoon
+- 2 tbsp Custard Powder
+
+### HOW TO MAKE MANGO JAM
+
+1. Wash the mangoes and peel them, now cut them into small pieces.
+2. Now put the mango pieces in mixture and blend.
+3. Put on the gas and heat the pen.
+4. Add mango pulp in it and stir well in the low flame.
+5. Add sugar and stir.
+6. Now add Cardamom Powder and cinnamon Powder.
+7. Keep stirring continuously.
+8. Remove the pan from the heat when mixture turns thick.
+9. Let the mixture cool down and put it in a jar.
+10. Jam is ready to be served.
+
+
+
+### Tips:
+
+* Stir the mixture continuously or else it will stick inside pen and hampered the taste.
+* You can also add some rose water for more flavors.
+* You can use any type of mango's you want.
+* Store in a refrigerator for longer use.
+* Always use dry spoon to remove jam from the jar.
+
+
+![](../images/masonary-post/2020/mango-jam-3.jpg)
+
