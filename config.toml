@@ -50,7 +50,7 @@ weight = 2
 
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "contact-us"
 weight = 3
 
 # defult parameter
