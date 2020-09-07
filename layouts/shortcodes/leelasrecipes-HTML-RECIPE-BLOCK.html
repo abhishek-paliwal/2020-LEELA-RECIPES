@@ -131,7 +131,7 @@
                     <strong>Recipe Source Link:</strong> <a
                         href='https://www.leelasrecipes.com{{ .Page.Params.url }}'><span
                             itemprop='url'>https://www.leelasrecipes.com{{ .Page.Params.url }}</span></a><br>
-                    <strong>Date Published: </strong> <span itemprop='datePublished'>{{ .Page.Params.date }}</span>
+                    <strong>Date Published: </strong> <span itemprop='datePublished'>{{ substr .Page.Params.date 0 10 }}</span>
                 </td>
             </tr>
         </table>

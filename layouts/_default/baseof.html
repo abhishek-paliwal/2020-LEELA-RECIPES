@@ -2,6 +2,7 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
    <head>
     {{- partial "leelasrecipes_head_main.html" . -}}
+    {{- partial "leelasrecipes-INSERT-RECIPE-JSON-BLOCK" . -}}
    </head> 
     <body>
         {{- partial "leelasrecipes_pinterest_pinit_button.html" . -}}
