@@ -1,0 +1,142 @@
+<h4>Print this recipe from below: {{ .Page.Params.title }}</h4>
+
+<!-- HTML RECIPE CODE BLOCK BELOW THIS -->
+<div id='recipe-here'></div>
+<!-- /------------/ -->
+<div id='recipe-print-block'
+    style='line-height: 1.4; border: 1px dashed black; padding: 10px; font-size: 0.9rem; font-family: sans-serif; '>
+    <div>
+        <!-- /------------/ -->
+        <h3><span itemprop='name'>{{ .Page.Params.title }}</span> [RECIPE]</h3>
+        <span itemprop='description'>{{ .Page.Params.description }}</span>
+        <!-- /------------/ -->
+        <div class='flexbox_recipe_container'>
+            <!-- /------------/ -->
+            <div class='flexbox_recipe_left'>
+                <!-- recipe left flexbox starts -->
+                <!-- /------------/ -->
+                <img itemprop='image'
+                    src='https://www.leelasrecipes.com/{{ .Page.Params.image }}'
+                    width='150px'>
+                <!-- /------------/ -->
+                <div itemprop=''>
+                    <span style='color: #cd1d63;'>&hearts; &hearts; &hearts; &hearts; &hearts;</span>
+                    (Rating: <span itemprop='4.8'>{{ .Page.Params.aggregateRating.ratingValue }}</span> from <span itemprop='36'>{{ .Page.Params.aggregateRating.ratingCount }}</span> reviews)
+                </div>
+                <!-- /------------/ -->
+                <h4>INGREDIENTS</h4>
+
+                <div>
+                    {{ range .Page.Params.recipeIngredient }}
+                    <h4>{{ .recipeIngredientTitle }}</h4>
+                        <ul>
+                        {{ range .recipeIngredientList }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                        </ul>                 
+                    {{ end }}
+                </div>
+
+                <hr>
+                <!-- /------------/ -->
+            </div><!-- recipe left flexbox ends -->
+            <!-- /------------/ -->
+            <div class='flexbox_recipe_right'>
+                <!-- recipe right flexbox starts -->
+                <table border='0' cellpadding='1' cellspacing='5' width='100%'>
+                    <tr>
+                        <th style='text-align:center; width:33%; color:#cd1d63;'>&#128336; Prep time</th>
+                        <th style='text-align:center; width:33%; color:#cd1d63;'>&#128336; Cook time</th>
+                        <th style='text-align:center; width:33%; color:#cd1d63;'>&#128336; Total time</th>
+                    </tr>
+                    <!-- /------------/ -->
+                    <tr>
+                        {{ $MYprepTime := .Page.Params.prepTime }}
+                        {{ $MYprepTime := replace $MYprepTime "PT" "" }}
+                        {{ $MYprepTime := replace $MYprepTime "H" " hours " }}
+                        {{ $MYprepTime := replace $MYprepTime "M" " minutes " }}
+
+                        {{ $MYcookTime := .Page.Params.cookTime }}
+                        {{ $MYcookTime := replace $MYcookTime "PT" "" }}
+                        {{ $MYcookTime := replace $MYcookTime "H" " hours " }}
+                        {{ $MYcookTime := replace $MYcookTime "M" " minutes " }}
+
+                        {{ $MYtotalTime := .Page.Params.totalTime }}
+                        {{ $MYtotalTime := replace $MYtotalTime "PT" "" }}
+                        {{ $MYtotalTime := replace $MYtotalTime "H" " hours " }}
+                        {{ $MYtotalTime := replace $MYtotalTime "M" " minutes " }}
+
+                        <td style='text-align:center'><time datetime='PT20M' itemprop='prepTime'>{{ $MYprepTime }}</time></td>
+                        <td style='text-align:center'><time datetime='PT30M' itemprop='cookTime'>{{ $MYcookTime }}</time></td>
+                        <td style='text-align:center'><time datetime='PT50M' itemprop='totalTime'>{{ $MYtotalTime }}</time></td>
+                    </tr>
+                    <!-- /------------/ -->
+                    <tr>
+                        <th style='text-align:center; width:33%; color:#cd1d63;'>&#9782; Category</th>
+                        <th style='text-align:center; width:33%; color:#cd1d63;'>&#9832; Cuisine</th>
+                        <th style='text-align:center; width:33%; color:#cd1d63;'>&#9786; Serves</th>
+                    </tr>
+                    <!-- /------------/ -->
+                    <tr>
+                        <td itemprop='recipeCategory' style='text-align:center; width:33%;'>{{ .Page.Params.recipeCategory }}</td>
+                        <td itemprop='recipeCuisine' style='text-align:center; width:33%;'>{{ .Page.Params.recipeCuisine }}</td>
+                        <td itemprop='recipeYield' style='text-align:center; width:33%;'>{{ .Page.Params.recipeYield }}</td>
+                    </tr>
+                </table>
+                <!-- /------------/ -->
+                <hr>
+                <!-- /------------/ -->
+                <div itemprop='nutrition'>
+                    <strong>Nutrition Info:</strong> <span itemprop='calories'>{{ .Page.Params.nutrition.calories }}</span> //
+                    <strong>Servings:</strong> <span itemprop='servingSize'>{{ .Page.Params.nutrition.servingSize }}</span> </div>
+                <!-- /------------/ -->
+                <h4>INSTRUCTIONS:</h4>
+                <div itemprop='recipeInstructions'>
+
+                        {{ range .Page.Params.recipeInstructions }}
+                        <h4>{{ .recipeInstructionsTitle }}</h4>
+                        <ol>
+                            {{ range .recipeInstructionsList }}
+                            <li>{{ . }}</li>
+                            {{ end }}
+                        </ol>
+                        {{ end }}
+
+                </div>
+                <!-- /------------/ -->
+                <hr>
+                <!-- /------------/ -->
+                <h3>NOTES:</h3>
+                <ol>
+                {{ range .Page.Params.recipeNotes }} 
+                    <li>{{ . }}</li> 
+                {{ end }}
+                </ol>
+
+                <!-- /------------/ -->
+            </div><!-- recipe right flexbox ends -->
+            <!-- /------------/ -->
+        </div><!-- recipe main flexbox container ends -->
+        <!-- /------------/ -->
+        <hr>
+        <!-- /------------/ -->
+        <table border='0' cellpadding='1' cellspacing='5' width='100%'>
+            <tr>
+                <td style='text-align:left; width:15%;'><img alt='Logo' height='70px'
+                        src='https://www.leelasrecipes.com/images/logo.png'>
+                </td>
+                <!-- /------------/ -->
+                <td style='text-align:left;'>
+                    <strong>Author:</strong> <span itemprop='author'>Leela P.</span><br>
+                    <strong>Recipe Source Link:</strong> <a
+                        href='https://www.leelasrecipes.com{{ .Page.Params.url }}'><span
+                            itemprop='url'>https://www.leelasrecipes.com{{ .Page.Params.url }}</span></a><br>
+                    <strong>Date Published: </strong> <span itemprop='datePublished'>{{ .Page.Params.date }}</span>
+                </td>
+            </tr>
+        </table>
+        <!-- /------------/ -->
+    </div>
+    <!-- /------------/ -->
+</div>
+<!-- HTML RECIPE CODE BLOCK ABOVE THIS -->
