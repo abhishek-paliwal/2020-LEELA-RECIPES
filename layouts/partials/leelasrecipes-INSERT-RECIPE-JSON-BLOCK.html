@@ -7,7 +7,7 @@
 "name": "{{ .Params.title }}",
 "description": "{{ .Params.description }}",
 "image": [
-"https://www.leelasrecipes.com/{{ .Params.image }}"
+  "https://www.leelasrecipes.com/{{ .Params.image }}"
 ],
 "prepTime": "{{ .Params.prepTime }}",
 "cookTime": "{{ .Params.cookTime }}",
@@ -16,79 +16,79 @@
 "recipeCuisine": "{{ .Params.recipeCuisine }}",
 "recipeYield": "{{ .Params.recipeYield }}",
 "aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": {{ .Params.aggregateRating.ratingValue }},
-"ratingCount": {{ .Params.aggregateRating.ratingCount }}
+  "@type": "AggregateRating",
+  "ratingValue": {{ .Params.aggregateRating.ratingValue }},
+  "ratingCount": {{ .Params.aggregateRating.ratingCount }}
 },
 "nutrition": {
-"@type": "NutritionInformation",
-"calories": "{{ .Params.nutrition.calories }}",
-"servingSize": "{{ .Params.nutrition.servingSize }}"
+  "@type": "NutritionInformation",
+  "calories": "{{ .Params.nutrition.calories }}",
+  "servingSize": "{{ .Params.nutrition.servingSize }}"
 },
 "author": {
-"@type": "Person",
-"name": "Leela",
-"brand": "Leela's Recipes",
-"url": "https://www.leelasrecipes.com"
+  "@type": "Person",
+  "name": "Leela",
+  "brand": "Leela's Recipes",
+  "url": "https://www.leelasrecipes.com"
 },
 "keywords": "{{ .Params.keywords }}",
 "video": {
-"@type": "VideoObject",
-"name": "{{ .Params.title }}",
-"description": "{{ .Params.description }}",
-"thumbnailUrl": [
-"https://www.leelasrecipes.com/{{ .Params.image }}",
-"https://www.leelasrecipes.com/images/youtube_video_cover_images/{{ .Params.youtube_video_id }}.jpg"
-],
-"contentUrl": "https://youtu.be/{{ .Params.youtube_video_id }}",
-"embedUrl": "https://www.youtube.com/embed/{{ .Params.youtube_video_id }}",
-"uploadDate": "{{ substr .Params.date 0 10 }}"
+  "@type": "VideoObject",
+  "name": "{{ .Params.title }}",
+  "description": "{{ .Params.description }}",
+  "thumbnailUrl": [
+  "https://www.leelasrecipes.com/{{ .Params.image }}",
+  "https://www.leelasrecipes.com/images/youtube_video_cover_images/{{ .Params.youtube_video_id }}.jpg"
+  ],
+  "contentUrl": "https://youtu.be/{{ .Params.youtube_video_id }}",
+  "embedUrl": "https://www.youtube.com/embed/{{ .Params.youtube_video_id }}",
+  "uploadDate": "{{ substr .Params.date 0 10 }}"
 },
 "datePublished": "{{ substr .Params.date 0 10 }}",
 "url": "https://www.leelasrecipes.com{{ .Params.url }}",
 "recipeIngredient": [
-{{ range .Page.Params.recipeIngredient }}
-  {{ .recipeIngredientTitle }} , 
-    {{ range .recipeIngredientList }}
-      {{ . }} ,  
-    {{ end }}
-{{ end }}
-"NOTE: Some ingredients can be replaced with their vegan counterparts."
+  {{ range .Page.Params.recipeIngredient }}
+    {{ .recipeIngredientTitle }} , 
+      {{ range .recipeIngredientList }}
+        {{ . }} ,  
+      {{ end }}
+  {{ end }}
+  "NOTE: Some ingredients can be replaced with their vegan counterparts."
 ],
 "recipeInstructions": [
-{{ range .Page.Params.recipeInstructions }}
-  {
-    "@type": "HowToSection",
-    "name": "{{ .recipeInstructionsTitle }}" ,
-    "itemListElement": 
-      [
-        {{ range .recipeInstructionsList }}
-        {
-          "@type": "HowToStep",
-          "text": "{{ . }}"
-          } ,         
-        {{ end }} 
-        {{ range last 1 .recipeInstructionsList }}
-        {
-          "@type": "HowToStep",
-          "text": "NOTE: Watch the recipe video to learn how to perform these cooking steps."
-        } 
-        {{ end }} 
-      ]
-  } ,       
-{{ end }}
+  {{ range .Page.Params.recipeInstructions }}
+    {
+      "@type": "HowToSection",
+      "name": "{{ .recipeInstructionsTitle }}" ,
+      "itemListElement": 
+        [
+          {{ range .recipeInstructionsList }}
+          {
+            "@type": "HowToStep",
+            "text": "{{ . }}"
+            } ,         
+          {{ end }} 
+          {{ range last 1 .recipeInstructionsList }}
+          {
+            "@type": "HowToStep",
+            "text": "NOTE: Watch the recipe video to learn how to perform these cooking steps."
+          } 
+          {{ end }} 
+        ]
+    } ,       
+  {{ end }}
 
-{
-    "@type": "HowToSection",
-    "name": " " ,
-    "itemListElement": 
-      [
-        {
-          "@type": "HowToStep",
-          "text": " "
-          }         
-      ]
-    }
+  {
+      "@type": "HowToSection",
+      "name": " " ,
+      "itemListElement": 
+        [
+          {
+            "@type": "HowToStep",
+            "text": " "
+            }         
+        ]
+      }
 
 ]
 
