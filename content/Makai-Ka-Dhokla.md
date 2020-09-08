@@ -62,5 +62,5 @@ Special Mango Jam recipe is a very mouth watering dish for kids and adults alike
 {{< leelasrecipes-youtube-video-embed >}}
 
 
-{{< leelasrecipes-INSERT-RECIPE-JSON-BLOCK >}}
+{{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
 
