@@ -57,10 +57,10 @@ recipeInstructions:
 
 ---
 
-Summer special Mango Jam recipe is a very mouth watering dish for kids and adults alike. 
+Special Mango Jam recipe is a very mouth watering dish for kids and adults alike. 
 
 {{< leelasrecipes-youtube-video-embed >}}
 
 
-{{< leelasrecipes-HTML-RECIPE-BLOCK >}}
+{{< leelasrecipes-INSERT-RECIPE-JSON-BLOCK >}}
 
