@@ -72,7 +72,7 @@ recipeInstructions:
 
 ---
 
-This is very famous recipe in Northern India, especially in the state of Rajasthan. This is very tasty yet easy recipe and mostly consumed in winter. 
+This is very famous recipe in Northern India, especially in the state of Rajasthan. This is very tasty yet easy recipe and mostly consumed during winter. 
 
 > It is an spicy recipe. You can eat it with urad dal, curd, or ghee.
 
