@@ -41,9 +41,10 @@ info ">>>> HUGO_PROJECT_DIR = $HUGO_PROJECT_DIR " ;
 
 ##############################################################################
 ## CREATING ALL SITE STATISTICS AND SAVING TO HTML FILE IN STATIC DIRECTORY
-echo ">> BEGINNING: CREATING SITE STATISTICS"
+echo ">> BEGINNING: CREATING MGGK SITE STATISTICS + VIDEO SITEMAP"
+bash $DIR_GITHUB/Bash-Scripts-To-Make-Life-Easier/1002-leelasrecipes-website-scripts/1002-leelasrecipes-MAKE-VIDEO-SITEMAP-XML.sh
 bash $DIR_GITHUB/Bash-Scripts-To-Make-Life-Easier/1002-leelasrecipes-website-scripts/1002-leelasrecipes-CREATE-AND-SAVE-SITE-STATISTICS.sh
-success ">> DONE: CREATING SITE STATISTICS"
+success ">> DONE: CREATING MGGK SITE STATISTICS + VIDEO SITEMAP"
 
 ##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## BEGIN: FUNCION DEFINITIONS
