@@ -43,6 +43,8 @@
 <!-- OPENGRAPH -->
 
 <meta property="og:title" content="{{ .Title }}" />
+<meta property="og:locale" content="en_US" />
+<link rel="alternate" href="{{ .Site.BaseURL }}{{ .Params.url }}" hreflang="en-us" />
 <meta property="og:description"
   content="{{ with .Params.description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
