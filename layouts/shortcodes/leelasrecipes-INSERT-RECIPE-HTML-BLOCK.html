@@ -1,140 +1,192 @@
 <!-- HTML RECIPE CODE BLOCK BELOW THIS -->
 <div id='recipe-here'></div>
-<!-- /------------/ -->
-<div id='recipe-print-block'
-    style='line-height: 1.4; border: 1px dashed black; padding: 10px; font-size: 0.9rem; font-family: sans-serif; '>
+<br>
+<div id='recipe-print-block' style='line-height: 1.4; border: 1px dashed black; padding: 10px; font-size: 0.9rem; font-family: sans-serif; '>
+    
     <div>
-        <!-- /------------/ -->
-        <h3><span itemprop='name'>{{ .Page.Params.title }}</span> [RECIPE]</h3>
-        <span itemprop='description'>{{ .Page.Params.description }}</span>
-        <!-- /------------/ -->
-        <div class='flexbox_recipe_container'>
-            <!-- /------------/ -->
-            <div class='flexbox_recipe_left'>
-                <!-- recipe left flexbox starts -->
-                <!-- /------------/ -->
-                <img itemprop='image'
-                    src='https://www.leelasrecipes.com/{{ .Page.Params.image }}'
-                    width='150px'>
-                <!-- /------------/ -->
-                <div itemprop=''>
-                    <span style='color:goldenrod;'>&#9733; &#9733; &#9733; &#9733; &#9733;</span>
-                    (Rating: <span itemprop='4.8'>{{ .Page.Params.aggregateRating.ratingValue }}</span> from <span itemprop='36'>{{ .Page.Params.aggregateRating.ratingCount }}</span> reviews)
-                </div>
-                <!-- /------------/ -->
-                <h4>INGREDIENTS</h4>
 
-                <div>
-                    {{ range .Page.Params.recipeIngredient }}
-                    <h4>{{ .recipeIngredientTitle }}</h4>
-                        <ul>
-                        {{ range .recipeIngredientList }}
-                        <li>{{ . }}</li>
-                        {{ end }}
-                        </ul>                 
-                    {{ end }}
+        <h3 style="color:blue;"><span itemprop='name'>{{ .Page.Params.title }}</span> [Recipe]</h3>
+
+        <div>
+            <div>
+                <div class="row">
+
+                    <div class="col-3">
+                        <img itemprop='image'
+                            src='https://www.leelasrecipes.com/{{ .Page.Params.image }}'
+                            width='100%'>
+
+                    </div>
+
+                    <div class="col-9">
+                        <span itemprop='description'
+                            style='font-size: 1.1rem;'>{{ .Page.Params.description }}</span>
+                        <hr>
+                        <span style='color: #E8C32A; font-size: 1.5em;'>&#9733;&#9733;&#9733;&#9733;&#10032;</span>
+                        <br>
+                        (Rating: <span itemprop='ratingValue'>{{ .Page.Params.aggregateRating.ratingValue }}</span> from
+                        <span itemprop='ratingCount'>{{ .Page.Params.aggregateRating.ratingCount }}</span> reviews)
+                    </div>
                 </div>
 
-                <hr>
-                <!-- /------------/ -->
-            </div><!-- recipe left flexbox ends -->
-            <!-- /------------/ -->
-            <div class='flexbox_recipe_right'>
-                <!-- recipe right flexbox starts -->
-                <table border='0' cellpadding='1' cellspacing='5' width='100%'>
-                    <tr>
-                        <th style='text-align:center; width:33%; color:blue;'>&#128336; Prep time</th>
-                        <th style='text-align:center; width:33%; color:blue;'>&#128336; Cook time</th>
-                        <th style='text-align:center; width:33%; color:blue;'>&#128336; Total time</th>
-                    </tr>
-                    <!-- /------------/ -->
-                    <tr>
-                        {{ $MYprepTime := .Page.Params.prepTime }}
-                        {{ $MYprepTime := replace $MYprepTime "PT" "" }}
-                        {{ $MYprepTime := replace $MYprepTime "H" " hours " }}
-                        {{ $MYprepTime := replace $MYprepTime "M" " minutes " }}
+            </div>
 
-                        {{ $MYcookTime := .Page.Params.cookTime }}
-                        {{ $MYcookTime := replace $MYcookTime "PT" "" }}
-                        {{ $MYcookTime := replace $MYcookTime "H" " hours " }}
-                        {{ $MYcookTime := replace $MYcookTime "M" " minutes " }}
+        </div>
 
-                        {{ $MYtotalTime := .Page.Params.totalTime }}
-                        {{ $MYtotalTime := replace $MYtotalTime "PT" "" }}
-                        {{ $MYtotalTime := replace $MYtotalTime "H" " hours " }}
-                        {{ $MYtotalTime := replace $MYtotalTime "M" " minutes " }}
 
-                        <td style='text-align:center'><time datetime='PT20M' itemprop='prepTime'>{{ $MYprepTime }}</time></td>
-                        <td style='text-align:center'><time datetime='PT30M' itemprop='cookTime'>{{ $MYcookTime }}</time></td>
-                        <td style='text-align:center'><time datetime='PT50M' itemprop='totalTime'>{{ $MYtotalTime }}</time></td>
-                    </tr>
-                    <!-- /------------/ -->
-                    <tr>
-                        <th style='text-align:center; width:33%; color:blue;'>&#9782; Category</th>
-                        <th style='text-align:center; width:33%; color:blue;'>&#9832; Cuisine</th>
-                        <th style='text-align:center; width:33%; color:blue;'>&#9786; Serves</th>
-                    </tr>
-                    <!-- /------------/ -->
-                    <tr>
-                        <td itemprop='recipeCategory' style='text-align:center; width:33%;'>{{ .Page.Params.recipeCategory }}</td>
-                        <td itemprop='recipeCuisine' style='text-align:center; width:33%;'>{{ .Page.Params.recipeCuisine }}</td>
-                        <td itemprop='recipeYield' style='text-align:center; width:33%;'>{{ .Page.Params.recipeYield }}</td>
-                    </tr>
-                </table>
-                <!-- /------------/ -->
-                <hr>
-                <!-- /------------/ -->
-                <div itemprop='nutrition'>
-                    <strong>Nutrition Info:</strong> <span itemprop='calories'>{{ .Page.Params.nutrition.calories }}</span> //
-                    <strong>Servings:</strong> <span itemprop='servingSize'>{{ .Page.Params.nutrition.servingSize }}</span> </div>
-                <!-- /------------/ -->
-                <h4>INSTRUCTIONS:</h4>
-                <div itemprop='recipeInstructions'>
-
-                        {{ range .Page.Params.recipeInstructions }}
-                        <h4>{{ .recipeInstructionsTitle }}</h4>
-                        <ol>
-                            {{ range .recipeInstructionsList }}
-                            <li>{{ . }}</li>
-                            {{ end }}
-                        </ol>
-                        {{ end }}
-
-                </div>
-                <!-- /------------/ -->
-                <hr>
-                <!-- /------------/ -->
-                <h3>NOTES and TIPS:</h3>
-                <ol>
-                {{ range .Page.Params.recipeNotes }} 
-                    <li>{{ . }}</li> 
-                {{ end }}
-                </ol>
-
-                <!-- /------------/ -->
-            </div><!-- recipe right flexbox ends -->
-            <!-- /------------/ -->
-        </div><!-- recipe main flexbox container ends -->
-        <!-- /------------/ -->
+        <div>
         <hr>
-        <!-- /------------/ -->
-        <table border='0' cellpadding='1' cellspacing='5' width='100%'>
-            <tr>
-                <td style='text-align:left; width:15%;'><img alt='Logo' height='70px'
-                        src='https://www.leelasrecipes.com/images/logo.png'>
-                </td>
+
+            <table class='table table-striped' width="100%">
+
+                <tr>
+                    <th scope="col" style='color:blue;'>Prep time ⏲</th>
+                    <th scope="col" style='color:blue;'>Cook time ⏲</th>
+                    <th scope="col" style='color:blue;'>Total time ⏲</th>
+                </tr>
+
                 <!-- /------------/ -->
-                <td style='text-align:left;'>
-                    <strong>Author:</strong> <span itemprop='author'>Leela P.</span><br>
-                    <strong>Recipe Source Link:</strong> <a
-                        href='https://www.leelasrecipes.com{{ .Page.Params.url }}'><span
-                            itemprop='url'>https://www.leelasrecipes.com{{ .Page.Params.url }}</span></a><br>
-                    <strong>Date Published: </strong> <span itemprop='datePublished'>{{ substr .Page.Params.date 0 10 }}</span>
-                </td>
-            </tr>
-        </table>
-        <!-- /------------/ -->
+
+                {{ $MYprepTime := .Page.Params.prepTime }}
+                {{ $MYprepTime := replace $MYprepTime "PT" "" }}
+                {{ $MYprepTime := replace $MYprepTime "H" " hours " }}
+                {{ $MYprepTime := replace $MYprepTime "M" " mins " }}
+
+                {{ $MYcookTime := .Page.Params.cookTime }}
+                {{ $MYcookTime := replace $MYcookTime "PT" "" }}
+                {{ $MYcookTime := replace $MYcookTime "H" " hours " }}
+                {{ $MYcookTime := replace $MYcookTime "M" " mins " }}
+
+                {{ $MYtotalTime := .Page.Params.totalTime }}
+                {{ $MYtotalTime := replace $MYtotalTime "PT" "" }}
+                {{ $MYtotalTime := replace $MYtotalTime "H" " hours " }}
+                {{ $MYtotalTime := replace $MYtotalTime "M" " mins " }}
+
+                <tr>
+                    <td style='font-size: 1.2rem; font-weight:700; '><time datetime='PT20M'
+                            itemprop='prepTime'>{{ $MYprepTime }}</time></td>
+                    <td style='font-size: 1.2rem; font-weight:700; '><time datetime='PT30M'
+                            itemprop='cookTime'>{{ $MYcookTime }}</time></td>
+                    <td style='font-size: 1.2rem; font-weight:700; '>{{ $MYtotalTime }}</time></td>
+                </tr>
+                <!-- /------------/ -->
+                <tr>
+                    <th style='color:blue;'>Category 📚</th>
+                    <th style='color:blue;'>Cuisine 🍴</th>
+                    <th style='color:blue;'>Serves 👨‍🍳</th>
+                </tr>
+                <!-- /------------/ -->
+                <tr>
+                    <td style='font-size: 1.2rem; font-weight:700;' itemprop='recipeCategory'>
+                        {{ .Page.Params.recipeCategory }}</td>
+                    <td style='font-size: 1.2rem; font-weight:700;' itemprop='recipeCuisine'>
+                        {{ .Page.Params.recipeCuisine }}</td>
+                    <td style='font-size: 1.2rem; font-weight:700;' itemprop='recipeYield'>
+                        {{ .Page.Params.recipeYield }}</td>
+                </tr>
+
+                <tr>
+                    <th style='color:blue;'>Nutrition Info 📜</th>
+                    <th style='color:blue;'> </th>
+                    <th style='color:blue;'>Serving size 🍕</th>
+                </tr>
+
+                <tr>
+                    <td style='font-size: 1.2rem; font-weight:700;' itemprop='calories'>
+                        {{ .Page.Params.nutrition.calories }}</td>
+                    <td style='font-size: 1.2rem; font-weight:700;' itemprop=''> </td>
+                    <td style='font-size: 1.2rem; font-weight:700;' itemprop='servingSize'>
+                        {{ .Page.Params.nutrition.servingSize }}</td>
+                </tr>
+
+            </table>
+
+            <hr>
+        
+            <h3>INGREDIENTS</h3>
+
+            <div>
+                {{ range .Page.Params.recipeIngredient }}
+                <h5>{{ .recipeIngredientTitle }}</h5>
+                <ul>
+                    {{ range .recipeIngredientList }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+
+            <hr>
+        
+            <h3>INSTRUCTIONS:</h3>
+            <div itemprop='recipeInstructions'>
+
+                {{ range .Page.Params.recipeInstructions }}
+                <h5>{{ .recipeInstructionsTitle }}</h5>
+                <ol>
+                    {{ range .recipeInstructionsList }}
+                    <li style='color: blue; font-size: 1.4rem; margin-left:0.5em;'><span
+                            style='color: black; font-size: 0.9rem;'>{{ . }}</span></li>
+                    {{ end }}
+                </ol>
+                {{ end }}
+
+            </div>
+
+        </div>
+
     </div>
-    <!-- /------------/ -->
+
+    <hr>
+    
+    {{ if .Page.Params.youtube_video_id }}
+    {{ "<!-- BEGIN: YOUTUBE VIDEO BLOCK -->" | safeHTML }}
+    <h3 id="video-here" style="border:0;">WATCH VIDEO:</h3>
+    <div class="videoWrapper" style="border:0;">
+        <iframe src="https://www.youtube.com/embed/{{ .Page.Params.youtube_video_id }}" frameborde r="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+    {{ "<!-- END: YOUTUBE VIDEO BLOCK -->" | safeHTML }}
+    <hr>
+    {{ end }}
+
+
+    <h3>NOTES AND TIPS:</h3>
+    <ol>
+        {{ range .Page.Params.recipeNotes }}
+        <li style='color: blue; font-size: 1.4rem; margin-left:0.5em;'><span
+                style='color: black; font-size: 0.9rem;'>{{ . }}</span></li>
+        {{ end }}
+    </ol>
+
+    <hr>
+
+    <div style="padding: 15px; background: #fdefe6; border-radius: 7px; ">
+
+        <img alt='Site Logo' src='https://www.leelasrecipes.com/images/logo.png' width="75px">
+        <br><strong>Author:</strong> <span itemprop='author'>Leela</span>
+        <br><strong>Recipe Source Link:</strong> <a href='https://www.leelasrecipes.com{{ .Page.Params.url }}'><span
+                itemprop='url'>https://www.leelasrecipes.com{{ .Page.Params.url }}</span></a>
+        <br><strong>Date Published: </strong> <span itemprop='datePublished'>{{ substr .Page.Params.date 0 10 }}</span>
+
+        <hr>
+
+        <img src="https://www.leelasrecipes.com/logo-vector-youtube.svg" width="175px">
+        <br>If this recipe helped you, then please spread the word by sharing and <a
+            href="https://www.youtube.com/channel/UCgMWHF6dNmRVZp6J4FZj51g">subscribing</a> to us on YouTube to get more such Recipe
+        Videos.
+
+        <hr>
+
+        <img src="https://www.leelasrecipes.com/logo-vector-instagram.svg" width="45px">
+        <br>Your feedback is so helpful for me and other MyGingerGarlicKitchen readers. So, for Facebook and Instagram,
+        please mention <a href="https://www.instagram.com/leelasrecipes/">@leelasrecipes</a> or <a
+            href="https://www.instagram.com/leelasrecipes/">#leelasrecipes</a>. I would love to see your
+        photos. :)
+
+    </div>
+
+    
 </div>
 <!-- HTML RECIPE CODE BLOCK ABOVE THIS -->
