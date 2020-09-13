@@ -1,0 +1,30 @@
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Params.title }}"
+      },
+      "headline": "{{ .Params.title }}",
+      "image": [
+        "{{ .Site.BaseURL }}/rich-markup-images/1x1/1x1-{{ replace .Params.url "/" "" }}.jpg",
+        "{{ .Site.BaseURL }}/rich-markup-images/4x3/4x3-{{ replace .Params.url "/" "" }}.jpg",
+        "{{ .Site.BaseURL }}/rich-markup-images/16x9/16x9-{{ replace .Params.url "/" "" }}.jpg"
+       ],
+      "datePublished": "{{ .Params.first_published_on }}",
+      "dateModified": "{{ .Params.date }}",
+      "author": {
+        "@type": "Person",
+        "name": "Leela"
+      },
+       "publisher": {
+        "@type": "Organization",
+        "name": "Leela's Recipes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.leelasrecipes.com/images/logo.png"
+        }
+      }
+    }
+    </script>

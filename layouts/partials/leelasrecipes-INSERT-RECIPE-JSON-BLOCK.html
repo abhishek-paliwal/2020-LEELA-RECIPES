@@ -1,3 +1,12 @@
+<!-- BEGIN: MGGK RECIPE LD+JSON BLOCK -->
+
+<!-- Parsing and Modifying some variables -->
+{{ $Yield := replace .Params.recipeYield "-" " " }}
+{{ $Yield := split $Yield " " }}
+
+<!-- (First, it checks if prepTime exists, only then prints whole ld+json code) -->
+{{ if .Params.prepTime }}
+
 {{ "<!-- JSON+LD RECIPE SCHEMA BLOCK BELOW THIS -->" | safeHTML }}
 <script type='application/ld+json'>
 
@@ -14,7 +23,7 @@
 "totalTime": "{{ .Params.totalTime }}",
 "recipeCategory": "{{ .Params.recipeCategory }}",
 "recipeCuisine": "{{ .Params.recipeCuisine }}",
-"recipeYield": "{{ .Params.recipeYield }}",
+"recipeYield": "{{ index $Yield 0 }}",
 "aggregateRating": {
   "@type": "AggregateRating",
   "ratingValue": {{ .Params.aggregateRating.ratingValue }},
@@ -55,46 +64,56 @@
   {{ end }}
   "NOTE: Some ingredients can be replaced with their vegan counterparts."
 ],
-"recipeInstructions": [
-  {{ range .Page.Params.recipeInstructions }}
-    {
-      "@type": "HowToSection",
-      "name": "{{ .recipeInstructionsTitle }}" ,
-      "itemListElement": 
-        [
-          {{ range .recipeInstructionsList }}
-          {
-            "@type": "HowToStep",
-            "text": "{{ . }}"
-            } ,         
-          {{ end }} 
-          {{ range last 1 .recipeInstructionsList }}
-          {
-            "@type": "HowToStep",
-            "text": "NOTE: Watch the recipe video to learn how to perform these cooking steps."
-          } 
-          {{ end }} 
-        ]
-    } ,       
-  {{ end }}
+    "recipeInstructions{{ $.Scratch.Set "counterSection" 0 }}": [     
+      {{ range .Page.Params.recipeInstructions }}
+        {       
+          "@type": "HowToSection{{ $.Scratch.Set "counterSection" (add ($.Scratch.Get "counterSection") 1) }}",
+          "name": "{{ .recipeInstructionsTitle }}" ,
+          "itemListElement{{ $.Scratch.Set "counterStep" 0 }}": 
+            [               
+              {{ range .recipeInstructionsList }}                
+              {
+                "@type": "HowToStep{{ $.Scratch.Set "counterStep" (add ($.Scratch.Get "counterStep") 1) }}",
+                "name": "{{ . }}",
+                "text": "{{ . }}",
+                "url": "https://www.leelasrecipes.com{{ $.Params.url }}#step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}",
+                "image": "https://www.leelasrecipes.com/{{ replace $.Params.url "/" "" }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg"
+                } ,         
+              {{ end }} 
+              {{ range last 1 .recipeInstructionsList }}
+              {
+                "@type": "HowToStep",
+                "name": "NOTE: Watch the recipe video to learn how to perform these cooking steps.",
+                "text": "NOTE: Watch the recipe video to learn how to perform these cooking steps.",
+                "url": "https://www.leelasrecipes.com{{ $.Params.url }}#",
+                "image": "https://www.leelasrecipes.com/{{ $.Params.image }}"
+              } 
+              {{ end }} 
+            ]
+        } ,       
+      {{ end }}
 
-  {
-      "@type": "HowToSection",
-      "name": " " ,
-      "itemListElement": 
-        [
-          {
-            "@type": "HowToStep",
-            "text": " "
-            }         
-        ]
-      }
+      {
+          "@type": "HowToSection",
+          "name": "ENJOY THIS RECIPE" ,
+          "itemListElement": 
+            [
+              {
+                "@type": "HowToStep",
+                "name": "ENJOY THIS RECIPE.",
+                "text": "ENJOY THIS RECIPE.",
+                "url": "https://www.leelasrecipes.com{{ $.Params.url }}#",
+                "image": "https://www.leelasrecipes.com/{{ $.Params.image }}"
+              }         
+            ]
+          }
 
-]
+  ]
 
 }
 
-</script> 
+</script>
 {{ "<!-- JSON+LD RECIPE SCHEMA BLOCK ABOVE THIS -->" | safeHTML }}
-
-
+  
+{{ end }}
+<!-- END: MGGK RECIPE LD+JSON BLOCK -->
