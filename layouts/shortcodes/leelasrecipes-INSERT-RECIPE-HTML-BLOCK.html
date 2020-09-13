@@ -1,3 +1,7 @@
+<!-- BEGIN: SETTING SOME VARIABLES -->
+{{ $newURL := replace .Page.Params.url "/" "" }}
+<!-- END: SETTING SOME VARIABLES -->
+
 <!-- HTML RECIPE CODE BLOCK BELOW THIS -->
 <div id='recipe-here'></div>
 <br>
@@ -106,7 +110,7 @@
             <h3>INGREDIENTS</h3>
 
             <div>
-                {{ range .Page.Params.recipeIngredient }}
+                {{ range .Page.Params.recipeIngredient }}  
                 <h5>{{ .recipeIngredientTitle }}</h5>
                 <ul>
                     {{ range .recipeIngredientList }}
@@ -120,13 +124,24 @@
         
             <h3>INSTRUCTIONS:</h3>
             <div itemprop='recipeInstructions'>
-
+                {{ $.Scratch.Set "counterSection" 0 }}
                 {{ range .Page.Params.recipeInstructions }}
+
                 <h5>{{ .recipeInstructionsTitle }}</h5>
+                    {{ $.Scratch.Set "counterSection" (add ($.Scratch.Get "counterSection") 1) }}
+                    
                 <ol>
+                    {{ $.Scratch.Set "counterStep" 0 }}
                     {{ range .recipeInstructionsList }}
-                    <li style='color: blue; font-size: 1.4rem; margin-left:0.5em;'><span
-                            style='color: black; font-size: 0.9rem;'>{{ . }}</span></li>
+                    {{ $.Scratch.Set "counterStep" (add ($.Scratch.Get "counterStep") 1) }}
+
+                    <li id='step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}' style='color: blue; font-size: 1.4rem; margin-left:0.5em;'><span
+                            style='color: black; font-size: 0.9rem;'>{{ . }}</span>
+                        
+                    <br>
+                    <div style='display:none;'><img src='https://www.leelasrecipes.com/{{ $newURL }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg' alt='Image of the cooking step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}' width='500px' ></div>
+                    
+                    </li>
                     {{ end }}
                 </ol>
                 {{ end }}
