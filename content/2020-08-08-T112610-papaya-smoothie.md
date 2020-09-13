@@ -65,7 +65,6 @@ Papaya Smoothie is so good, you can even serve it as dessert. This papaya smooth
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/papaya-smoothie-2.jpg" alt="papaya smoothie" >}}
 
-{{< leelasrecipes-youtube-video-embed >}}
 
 
 {{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}

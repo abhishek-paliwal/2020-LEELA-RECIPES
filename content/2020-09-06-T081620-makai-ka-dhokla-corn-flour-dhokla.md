@@ -79,7 +79,6 @@ This is very famous recipe in Northern India, especially in the state of Rajasth
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/makai-ka-dhokla-corn-flour-dhokla-3.jpg" alt="makai ka dhokla" >}}
 
-{{< leelasrecipes-youtube-video-embed >}}
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/makai-ka-dhokla-corn-flour-dhokla-2.jpg" alt="makai ka dhokla" >}}
 

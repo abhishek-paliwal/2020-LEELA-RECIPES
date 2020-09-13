@@ -89,8 +89,6 @@ Modak is a very popular Sweet in Maharastra and Goa. Now a days this delicious r
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/mava-modak-dry-fruit-modak-2.jpg" alt="mava modak dry fruit modak" >}}
 
-{{< leelasrecipes-youtube-video-embed >}}
-
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/mava-modak-dry-fruit-modak-3.jpg" alt="mava modak dry fruit modak" >}}
 

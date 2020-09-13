@@ -78,7 +78,5 @@ The significance of this prasad not only remains religiously important but is al
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/dhaniya-panjiri-2.jpg" alt="Dhaniya Panjiri" >}}
 
-{{< leelasrecipes-youtube-video-embed >}}
-
 
 {{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}

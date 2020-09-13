@@ -75,10 +75,8 @@ Besan ki chakki recipe is traditional sweet of Rajasthan. This authentic Besan k
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/besan-chakki-2.jpg" alt="besan chakki" >}}
 
-
-{{< leelasrecipes-youtube-video-embed >}}
+{{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
 
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/besan-chakki-1.jpg" alt="besan chakki" >}}
 
-{{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}

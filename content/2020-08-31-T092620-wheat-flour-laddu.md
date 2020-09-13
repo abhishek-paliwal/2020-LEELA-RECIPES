@@ -82,7 +82,6 @@ It is a tasty yet complicated Sweet to make and one needs a little practice to p
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/wheat-flour-laddu-2.jpg" alt="wheat flour laddu" >}}
 
-{{< leelasrecipes-youtube-video-embed >}}
 
 {{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
 

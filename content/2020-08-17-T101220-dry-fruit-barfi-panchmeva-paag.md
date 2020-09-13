@@ -79,8 +79,6 @@ Dry fruit barfi also known as panchmeva paag is very mouth watering healthy and 
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/Dry-Fruit-Barfi-Panchmeva-Paag-1.jpg" alt="Dry Fruit Barfi Panchmeva Paag" >}}
 
-{{< leelasrecipes-youtube-video-embed >}}
-
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/Dry-Fruit-Barfi-Panchmeva-Paag-3.jpg" alt="Dry Fruit Barfi Panchmeva Paag" >}}
 
