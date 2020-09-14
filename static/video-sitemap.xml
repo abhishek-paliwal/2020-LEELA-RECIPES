@@ -155,4 +155,32 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/balushahi/</loc>
+			<video:video>
+				<video:title>Balushahi - Indian Sweet</video:title>
+				<video:publication_date>2020-09-11T08:16:20+00:00</video:publication_date>
+				<video:description>Balushahi is very famous dish in India. It is specially made during festivals in India.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/-0pTbVqVYcY</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/-0pTbVqVYcY.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/rajma-curry/</loc>
+			<video:video>
+				<video:title>Rajma Curry</video:title>
+				<video:publication_date>2020-09-14T01:16:20+00:00</video:publication_date>
+				<video:description>Rajma Curry is a very famous dish in north India, specially in Punjab and Delhi. Rajma is consumed with in combination with rice.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/yCKsFM4cJ6U</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/yCKsFM4cJ6U.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>

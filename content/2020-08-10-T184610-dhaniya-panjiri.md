@@ -65,6 +65,9 @@ recipeInstructions:
 
 ---
 
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
+
 The significance of this prasad not only remains religiously important but is also healthy, it is very tasty and nutritious. It is used widely as an offering across the country during Janmashtami, a festival celebrating the birth of Lord Krishna. When you hear panjiri, we know that our sweet tooth gets activated! 
 
 

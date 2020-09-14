@@ -82,6 +82,8 @@ recipeInstructions:
 
 ---
 
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
 Modak is a very popular Sweet in Maharastra and Goa. Now a days this delicious recipe is made in whole India. Specially on the occasion of Lord Ganesha's Birthday (Ganesh Chaturthi). 
 
 > Modak is one of the most popular offerings to Lord ganesha and these days it is available in variety of options and are easy to make.

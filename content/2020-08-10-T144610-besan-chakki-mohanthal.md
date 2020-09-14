@@ -69,6 +69,9 @@ recipeInstructions:
 
 ---
 
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
+
 Besan ki chakki recipe is traditional sweet of Rajasthan. This authentic Besan ki chakki recipe from Rajasthan will just melt in your mouth leaving an everlasting taste. This divine mithai is also called "Mohanthal". 
 
 > It is a tasty yet complicated mithai to make. One needs a little practice to perfect this recipe. It is usually made on special occasions and weddings.

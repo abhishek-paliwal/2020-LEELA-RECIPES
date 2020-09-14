@@ -72,6 +72,9 @@ recipeInstructions:
 
 ---
 
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
+
 Dry fruit barfi also known as panchmeva paag is very mouth watering healthy and delicious recipe. It is very simple recipe you can make it with easy available home ingredients or nuts in minimum time. 
 
 > It can also be consumed in falahar or fast. Not only elders, but even kids also love it very much.

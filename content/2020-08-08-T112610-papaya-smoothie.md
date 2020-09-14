@@ -59,6 +59,9 @@ recipeInstructions:
 
 ---
 
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
+
 Papaya Smoothie is so good, you can even serve it as dessert. This papaya smoothie will keep you healthy, nice and cool on a day to day busy life. 
  
 > Once Christopher Columbus called papaya the "fruit of the angels". Indeed, it is very true as it is tasty as well as healthy.

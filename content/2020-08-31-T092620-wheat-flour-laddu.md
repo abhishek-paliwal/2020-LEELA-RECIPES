@@ -73,6 +73,8 @@ recipeInstructions:
 
 ---
 
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
 Wheat Flour Laddu recipe is traditional sweet of Rajasthan. This authentic Delicious Laddu recipe from Rajasthan is also famous in whole North India, will just melt in your mouth leaving an everlasting taste. 
 
 It is a tasty yet complicated Sweet to make and one needs a little practice to perfect this recipe 
