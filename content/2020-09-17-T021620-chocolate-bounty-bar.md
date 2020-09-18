@@ -62,7 +62,5 @@ Today we will prepare Chocolate Bounty Bar. It is very delicious yet mouth water
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/chocolate-bounty-bar-2.jpg" alt="Chocolate Bounty Image" >}}
 
-{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/chocolate-bounty-bar-3.jpg" alt="Chocolate Bounty Image" >}}
-
 {{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
 
