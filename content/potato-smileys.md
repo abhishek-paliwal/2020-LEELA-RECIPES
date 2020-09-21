@@ -1,0 +1,77 @@
+---
+title: "Potato Smileys"
+date: 2020-09-21T05:16:20
+description: "Potato Smileys are very famous amongst kids. You can eat it with tomato sauce or mayonnaise."
+type: "post"
+image: "images/youtube_video_cover_images/54_4WGKTNls.jpg"
+url: /potato-smileys/
+youtube_video_id: "54_4WGKTNls"
+
+categories: 
+  - "Breakfast"
+tags:
+  - "Vegetarian"
+
+prepTime: PT5M
+cookTime: PT25M
+totalTime: PT30M
+
+recipeCategory: Breakfast
+recipeCuisine: International
+recipeYield: 4
+
+aggregateRating:
+  ratingValue: 4.9
+  ratingCount: 6
+
+nutrition:
+  calories: 340 calories
+  servingSize: 1 serving
+
+recipeNotes: 
+  - "Try to make smiley a bit thicker, don't make the circles too thin."
+  - "Don't forget to put it in fridge."
+
+recipe_keywords: "chocolate, bounty, chocolate bounty"
+
+recipeIngredient:
+  - recipeIngredientTitle: "For Potato Smileys:"
+    recipeIngredientList: 
+    - Potato 3 Boiled
+    - Corn flour 3-4 spn.
+    - Semolina 2 spn.
+    - Salt to taste
+    - Oil to fry
+
+recipeInstructions:
+  - recipeInstructionsTitle: "How to make Potato Smileys:"
+    recipeInstructionsList:
+    - Boil potato's and peal them.
+    - Great potatoes with the help of greater.
+    - Now add corn flour, semolina & and salt and mix well & make a dough.
+    - Now make round ball with the dough and make the shape of roti with help of roller.
+    - Now cut small rounds with the help of glass.
+    - With the help of the cap of pan make the eyes of your smiley.
+    - With help of spoon make your smiley smile.
+    - Now fridge them foe 30 min. So that your smiley will become crunchy.
+    - Now bring smileys out of fridge and fry it in oil.
+    - Take out from oil when it turn golden brown.
+    - Our smiley is ready.
+    - You can consume it with tomato sauce or mayonnaise.
+
+---
+
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
+Today we will prepare one of the most famous and lovely dishes all around the world specially for kids. These are tasty and crunchy potato smileys. Whenever you feel you can made this recipe to make your kids smile. 
+
+> It is very easy yet tasty recipe. You can eat it with tomato sauce or mayonnaise.
+
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/potato-smileys-1.jpg" alt="Potato Smileys" >}}
+
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/potato-smileys-2.jpg" alt="Potato Smileys" >}}
+
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/potato-smileys-3.jpg" alt="Potato Smileys" >}}
+
+{{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
+
