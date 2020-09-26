@@ -211,4 +211,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/samosa/</loc>
+			<video:video>
+				<video:title>Samosa</video:title>
+				<video:publication_date>2020-09-25T12:13:10+00:00</video:publication_date>
+				<video:description>Samosa is a very popular Indian Street Food which can be enjoyed with a cup of tea or different types of chutneys and tomato sauce.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/B4keXSCqjqg</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/B4keXSCqjqg.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
