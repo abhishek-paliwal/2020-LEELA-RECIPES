@@ -15,8 +15,11 @@
 "@type": "Recipe",
 "name": "{{ .Params.title }}",
 "description": "{{ .Params.description }}",
-"image": [
-  "https://www.leelasrecipes.com/{{ .Params.image }}"
+   "image": [
+      "{{ .Site.BaseURL }}/rich-markup-images/16x9/16x9-{{ replace .Params.url "/" "" }}.jpg",
+      "{{ .Site.BaseURL }}/rich-markup-images/4x3/4x3-{{ replace .Params.url "/" "" }}.jpg",
+      "{{ .Site.BaseURL }}/rich-markup-images/1x1/1x1-{{ replace .Params.url "/" "" }}.jpg",
+      "https://www.leelasrecipes.com/{{ .Params.image }}"
 ],
 "prepTime": "{{ .Params.prepTime }}",
 "cookTime": "{{ .Params.cookTime }}",

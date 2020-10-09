@@ -1,0 +1,27 @@
+<!-- Run only if youtube video id is present in page frontmatter -->
+{{ if .Params.youtube_video_id  }}
+
+{{ "<!-- JSON+LD VIDEO SCHEMA BLOCK BELOW THIS -->" | safeHTML }}
+  <script type='application/ld+json'>
+
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "{{ .Params.title }}",
+      "description": "{{ .Params.description }}",
+      "thumbnailUrl": [
+        "{{ .Site.BaseURL }}/rich-markup-images/16x9/16x9-{{ replace .Params.url "/" "" }}.jpg",
+        "{{ .Site.BaseURL }}/rich-markup-images/4x3/4x3-{{ replace .Params.url "/" "" }}.jpg",
+        "{{ .Site.BaseURL }}/rich-markup-images/1x1/1x1-{{ replace .Params.url "/" "" }}.jpg",
+        "https://www.leelasrecipes.com/{{ .Params.image }}",
+        "https://www.leelasrecipes.com/images/youtube_video_cover_images/{{ .Params.youtube_video_id }}.jpg"
+      ],
+      "contentUrl": "https://youtu.be/{{ .Params.youtube_video_id }}",
+      "embedUrl": "https://www.youtube.com/embed/{{ .Params.youtube_video_id }}",
+      "uploadDate": "{{ substr .Params.date 0 10 }}"
+    }
+
+  </script>
+  {{ "<!-- JSON+LD VIDEO SCHEMA BLOCK ABOVE THIS -->" | safeHTML }}
+
+{{ end }}
