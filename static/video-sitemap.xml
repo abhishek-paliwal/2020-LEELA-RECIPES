@@ -239,4 +239,32 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/bread-poha/</loc>
+			<video:video>
+				<video:title>Bread Poha</video:title>
+				<video:publication_date>2020-10-05T10:21:20+00:00</video:publication_date>
+				<video:description>Bread Poha is a light and easy to digest dish. You can enjoy it anytime with tea or coffee.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/o3V7mJIZUKM</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/o3V7mJIZUKM.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/palak-puri/</loc>
+			<video:video>
+				<video:title>Palak Puri</video:title>
+				<video:publication_date>2020-10-09T12:21:20+00:00</video:publication_date>
+				<video:description>Palak Puri is made with Spinach. This is a spicy yet tasty Puri. It is very famous in weddings and special occasions in India.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/DkO3Wi_xhbc</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/DkO3Wi_xhbc.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
