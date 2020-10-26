@@ -1,4 +1,8 @@
 ---
+my_custom_variable: "custom_variable_value"
+
+steps_images_present: "no"
+
 title: "Chocolate Bounty"
 date: 2020-09-17T02:16:20
 description: "Chocolate Bounty is a very delicious and mouth watering recipe. Kids and elders love it alike."

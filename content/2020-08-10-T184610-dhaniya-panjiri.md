@@ -1,4 +1,8 @@
 ---
+my_custom_variable: "custom_variable_value"
+
+steps_images_present: "no"
+
 title: "Dhaniya Panjiri - Janmashtami Prasad"
 date: 2020-08-10T18:46:10
 description: "Dhania Panjiri is used widely as an offering across the country during Janmashtami"

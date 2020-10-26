@@ -1,4 +1,8 @@
 ---
+my_custom_variable: "custom_variable_value"
+
+steps_images_present: "no"
+
 title: "Papaya Smoothie"
 date: 2020-08-08T11:26:10
 description: "Papaya Smoothie is so good, you can even serve it as dessert. This papaya smoothie will keep you healthy, nice and cool on a day to day busy life."

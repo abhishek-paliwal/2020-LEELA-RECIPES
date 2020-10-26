@@ -1,4 +1,8 @@
 ---
+my_custom_variable: "custom_variable_value"
+
+steps_images_present: "no"
+
 title: "Bhutte Ka Halwa // Corn Halwa"
 date: 2020-09-29T11:11:10
 description: "Bhutte ka Halwa or Corn Halwa is a very delicious and mouth-watering recipe. This dish is usually made in winters."

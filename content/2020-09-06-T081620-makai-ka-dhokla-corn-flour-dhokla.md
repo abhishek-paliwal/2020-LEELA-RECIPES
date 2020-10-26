@@ -1,8 +1,11 @@
 ---
+my_custom_variable: "custom_variable_value"
+
+steps_images_present: "no"
+
 title: "Makai ka Dhokla - Corn Flour Dhokla"
 date: 2020-09-06T08:16:20
-description: "This is very famous recipe in Northern India, especially in the state of Rajasthan. This is very tasty yet easy recipe and mostly consumed in winter. 
-"
+description: "This is very famous recipe in Northern India, especially in the state of Rajasthan. This is very tasty yet easy recipe and mostly consumed in winter. "
 type: "post"
 image: "images/youtube_video_cover_images/Ry1Jph1Xxy8.jpg"
 url: /makai-ka-dhokla-corn-flour-dhokla/

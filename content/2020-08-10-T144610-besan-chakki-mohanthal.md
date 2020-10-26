@@ -1,4 +1,8 @@
 ---
+my_custom_variable: "custom_variable_value"
+
+steps_images_present: "no"
+
 title: "Besan Chakki - Mohanthal"
 date: 2020-08-10T14:46:10
 description: "Besan ki chakki recipe is traditional sweet of Rajasthan. This divine mithai is also called Mohanthal."

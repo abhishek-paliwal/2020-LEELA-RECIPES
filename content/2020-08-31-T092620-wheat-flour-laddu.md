@@ -1,4 +1,8 @@
 ---
+my_custom_variable: "custom_variable_value"
+
+steps_images_present: "no"
+
 title: "Wheat Flour Laddu"
 date: 2020-08-31T09:26:20
 description: "Wheat Flour Laddu is a traditional sweet of Rajasthan. It is usually made on special occasions and weddings."
