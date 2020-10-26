@@ -1,5 +1,11 @@
 <!-- BEGIN: SETTING SOME VARIABLES -->
 {{ $newURL := replace .Page.Params.url "/" "" }}
+
+{{ if (eq .Page.Params.steps_images_present "yes") }}
+{{ $.Scratch.Set "displayType" "block" }}
+{{ else }}
+{{ $.Scratch.Set "displayType" "none" }}
+{{ end }}
 <!-- END: SETTING SOME VARIABLES -->
 
 <!-- HTML RECIPE CODE BLOCK BELOW THIS -->
@@ -139,7 +145,7 @@
                             style='color: black; font-size: 0.9rem;'>{{ . }}</span>
                         
                     <br>
-                    <div style='display:none;'><img src='https://www.leelasrecipes.com/{{ $newURL }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg' alt='Image of the cooking step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}' width='500px' ></div>
+                    <div style='display: {{ $.Scratch.Get "displayType" }};'><img src='https://www.leelasrecipes.com/{{ $newURL }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg' alt='Image of the cooking step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}} for {{ $.Page.Params.title }}' ></div>
                     
                     </li>
                     {{ end }}

@@ -80,7 +80,7 @@
                 "name": "{{ . }}",
                 "text": "{{ . }}",
                 "url": "https://www.leelasrecipes.com{{ $.Params.url }}#step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}",
-                "image": "https://www.leelasrecipes.com/{{ replace $.Params.url "/" "" }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg"
+                "image": "https://www.leelasrecipes.com/recipe-steps-images/{{ replace $.Params.url "/" "" }}/{{ replace $.Params.url "/" "" }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg"
                 } ,         
               {{ end }} 
               {{ range last 1 .recipeInstructionsList }}
