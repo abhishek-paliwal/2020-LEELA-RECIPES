@@ -145,7 +145,7 @@
                             style='color: black; font-size: 0.9rem;'>{{ . }}</span>
                         
                     <br>
-                    <div style='display: {{ $.Scratch.Get "displayType" }};'><img src='https://www.leelasrecipes.com/{{ $newURL }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg' alt='Image of the cooking step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}} for {{ $.Page.Params.title }}' ></div>
+                    <div style='display: {{ $.Scratch.Get "displayType" }};'><img src='https://www.leelasrecipes.com/recipe-steps-images/{{ $newURL }}/{{ $newURL }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg' alt='Image of the cooking step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}} for {{ $.Page.Params.title }}' ></div>
                     
                     </li>
                     {{ end }}
