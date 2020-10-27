@@ -1,7 +1,7 @@
 ---
 my_custom_variable: "custom_variable_value"
 
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Bhutte Ka Halwa // Corn Halwa"
 date: 2020-09-29T11:11:10
