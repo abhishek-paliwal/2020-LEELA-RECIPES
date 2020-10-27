@@ -1,7 +1,7 @@
 ---
 my_custom_variable: "custom_variable_value"
 
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Dhaniya Panjiri - Janmashtami Prasad"
 date: 2020-08-10T18:46:10

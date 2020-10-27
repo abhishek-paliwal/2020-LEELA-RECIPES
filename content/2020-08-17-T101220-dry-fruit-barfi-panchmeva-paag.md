@@ -1,7 +1,7 @@
 ---
 my_custom_variable: "custom_variable_value"
 
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Dry Fruit Barfi - Panchmeva Paag"
 date: 2020-08-17T10:12:20

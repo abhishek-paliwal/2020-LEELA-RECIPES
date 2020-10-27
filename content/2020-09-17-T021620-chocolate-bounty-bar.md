@@ -1,7 +1,7 @@
 ---
 my_custom_variable: "custom_variable_value"
 
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Chocolate Bounty"
 date: 2020-09-17T02:16:20
