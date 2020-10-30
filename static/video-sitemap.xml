@@ -309,4 +309,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/makki-ki-roti/</loc>
+			<video:video>
+				<video:title>Makki Ki Roti</video:title>
+				<video:publication_date>2020-10-30T06:44:17+00:00</video:publication_date>
+				<video:description>Makki ki Roti is a traditional recipe of Mewar in Rajasthan. It is very tasty but needs practice and certain technique to cook.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/T-2gR1gNv0s</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/T-2gR1gNv0s.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
