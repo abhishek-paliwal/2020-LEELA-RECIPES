@@ -158,7 +158,7 @@ DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY
 ## BING SUBMISSION
 echo ">> Now submitting latest URLs to Microsoft Bing ..." ;
 bash $DIR_GITHUB/Bash-Scripts-To-Make-Life-Easier/1002-leelasrecipes-website-scripts/1002-leelasrecipes-2020-MICROSOFT-BING-BATCH-URL-SUBMISSION.sh ;
-say "Bing submission done ..." ;
+echo "Bing submission done ..." ;
 
 ###################################################################
 exit 0
