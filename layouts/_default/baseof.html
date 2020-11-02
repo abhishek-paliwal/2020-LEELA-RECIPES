@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
+    {{- partial "leelasrecipes-google-analytics4-global-gtag-tracking-code-head" . -}}
     {{- partial "leelasrecipes_head_main.html" . -}}
  
     {{- partial "leelasrecipes-INSERT-ARTICLE-JSON-BLOCK" . -}}
