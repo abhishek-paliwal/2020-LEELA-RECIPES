@@ -323,4 +323,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/palak-paneer/</loc>
+			<video:video>
+				<video:title>Palak Paneer</video:title>
+				<video:publication_date>2020-11-09T07:22:33+00:00</video:publication_date>
+				<video:description>Palak Paneer is considered as one of the most evergreen Indian Recipes. This recipe has tremendous health benefits for everyone.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/MWHnmoeqFmM</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/MWHnmoeqFmM.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
