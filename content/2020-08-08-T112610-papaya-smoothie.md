@@ -1,7 +1,7 @@
 ---
 my_custom_variable: "custom_variable_value"
 
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Papaya Smoothie"
 date: 2020-08-08T11:26:10

@@ -1,7 +1,7 @@
 ---
 my_custom_variable: "custom_variable_value"
 
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Makai ka Dhokla - Corn Flour Dhokla"
 date: 2020-09-06T08:16:20

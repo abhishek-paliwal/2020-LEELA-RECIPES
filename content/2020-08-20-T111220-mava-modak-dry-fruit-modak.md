@@ -1,7 +1,7 @@
 ---
 my_custom_variable: "custom_variable_value"
 
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Mava Modak and Dry Fruit Modak"
 date: 2020-08-20T11:12:20
