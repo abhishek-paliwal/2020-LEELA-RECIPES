@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Kala Chana Chaat"
 date: 2020-11-17T03:57:46
-description: "Main ingredient of this dish is Kala Chana or Black Gram, which is very easily available at home. Black gram is very healthy and beneficial."
+description: "Main ingredient of this dish is Kala Chana or Black Chickpeas, which is very easily available at home. black chickpeas is very healthy and beneficial."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/p08mUd0G6EQ.jpg"
 
 url: /kala-chana-chaat/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "p08mUd0G6EQ"
 
 categories: 
   - "Breakfast"
@@ -19,16 +19,16 @@ tags:
   - "Vegetarian"
 
 prepTime: PT5M
-cookTime: PT15M
-totalTime: PT20M
+cookTime: PT30M
+totalTime: PT35M
 
-recipeCategory: Breakfast
+recipeCategory: Main
 recipeCuisine: Indian
-recipeYield: 4
+recipeYield: 5
 
 aggregateRating:
-  ratingValue: 4.9
-  ratingCount: 4
+  ratingValue: 4.8
+  ratingCount: 3
 
 nutrition:
   calories: 147 calories
@@ -39,7 +39,7 @@ recipe_keywords: "Kala Chana Chaat"
 recipeIngredient:
   - recipeIngredientTitle: "For Kala Chana Chaat"
     recipeIngredientList:
-    - "Black gram, 1 bowl  " 
+    - "black chickpeas, 1 bowl  " 
     - "Sweet soda, 1 pinch" 
     - "Mustard seeds, half teaspoon " 
     - "Cumin seeds, half teaspoon " 
@@ -62,19 +62,19 @@ recipeInstructions:
     - "Chana should be kept in water overnight or for 7-8 hours. " 
     - "In the morning, we will remove it from the water and put a pinch of soda in the cooker and boil for 4-5 whistles. Then, open the cooker." 
     - "Now put oil in the pan, add mustard seeds, cumin, green chillies, onions, tomatoes, and stir for 2 minutes. Now we will add all the dry spices mentioned in the ingredients." 
-    - "Mix well and add boiled gram and stir for two to three minutes. After that, we will add green coriander leaves on top." 
+    - "Mix well and add boiled chickpeas and stir for two to three minutes. After that, we will add green coriander leaves on top." 
     - "Our chana chaat is ready. Eat and serve it to the guests too." 
 
 recipeNotes:
-  - "You can also eat gram by sprouting, as it is very healthy that way too." 
+  - "You can also eat chickpeas by sprouting, as it is very healthy that way too." 
 
 ---
 
 {{< leelasrecipes-button-block-for-recipe-here-link >}}
 
-Let us make Kala Chana Chaat. Kala Chana or Black Gram is very easily available at home. 
+Let us make Kala Chana Chaat. Kala Chana or black chickpeas is very easily available at home. 
 
-> Black gram is very healthy and beneficial, and you can eat it as breakfast. It’s good for all the seasons. 
+> black chickpeas is very healthy and beneficial, and you can eat it as breakfast. It’s good for all the seasons. 
 
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2020/kala-chana-chaat-1.jpg" alt="Image of Kala Chana Chaat" >}}

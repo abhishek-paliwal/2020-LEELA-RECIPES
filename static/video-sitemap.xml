@@ -342,9 +342,9 @@
 			<video:video>
 				<video:title>Kala Chana Chaat</video:title>
 				<video:publication_date>2020-11-17T03:57:46+00:00</video:publication_date>
-				<video:description>Main ingredient of this dish is Kala Chana or Black Gram, which is very easily available at home. Black gram is very healthy and beneficial.</video:description>
-				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/YOUTUBE_ID</video:player_loc>
-				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/YOUTUBE_ID.jpg</video:thumbnail_loc>
+				<video:description>Main ingredient of this dish is Kala Chana or Black Chickpeas, which is very easily available at home. black chickpeas is very healthy and beneficial.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/p08mUd0G6EQ</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/p08mUd0G6EQ.jpg</video:thumbnail_loc>
 	      <video:width>1920</video:width>
 				<video:height>1080</video:height>
 				<video:family_friendly>yes</video:family_friendly>
