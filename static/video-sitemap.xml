@@ -351,4 +351,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/spicy-chola-masala-namkeen/</loc>
+			<video:video>
+				<video:title>Spicy Chola Masala Namkeen</video:title>
+				<video:publication_date>2020-11-30T02:36:35+00:00</video:publication_date>
+				<video:description>Let’s learn to make Spicy Chola Masala Namkeen.You can enjoy it whenever you want with tea or coffee or with other snacks.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/rFzyhCEBp-I</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/rFzyhCEBp-I.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
