@@ -407,4 +407,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/gud-ki-raab/</loc>
+			<video:video>
+				<video:title>Gud Ki Raab</video:title>
+				<video:publication_date>2020-12-30T02:56:29+00:00</video:publication_date>
+				<video:description>This very delicious Gud ki Raab is eaten during winters. Drinking it in winters keeps the body energized and warm.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/7rFkPoN4JhQ</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/7rFkPoN4JhQ.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
