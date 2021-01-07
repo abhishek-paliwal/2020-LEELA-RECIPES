@@ -421,4 +421,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/pyaaz-matar-ki-sabji/</loc>
+			<video:video>
+				<video:title>Pyaaz Matar Ki Sabji</video:title>
+				<video:publication_date>2021-01-07T01:30:03+00:00</video:publication_date>
+				<video:description>Hare Pyaaz Matar ki Sabji (Green onions and peas vegetable) is a very tasty curry made with fresh green onions and peas.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/CUoetDWsN0M</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/CUoetDWsN0M.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
