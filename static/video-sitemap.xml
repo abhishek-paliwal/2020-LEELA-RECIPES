@@ -435,4 +435,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/gond-ke-laddu/</loc>
+			<video:video>
+				<video:title>Gond Ke Laddu</video:title>
+				<video:publication_date>2021-01-10T00:16:37+00:00</video:publication_date>
+				<video:description>Gond ke Laddus are eaten especially in winter and also fed to mothers of newborns. There are lots of health benefits of eating a laddu daily as breakfast.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/cl1CdhRgccM</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/cl1CdhRgccM.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
