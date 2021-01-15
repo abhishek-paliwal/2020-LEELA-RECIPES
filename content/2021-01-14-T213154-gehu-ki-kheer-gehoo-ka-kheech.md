@@ -4,7 +4,7 @@ steps_images_present: "yes"
 
 title: "Gehu ki Kheer (Gehoo ka Kheech)"
 date: 2021-01-14T21:31:54
-description: "Gehoo ka Kheech, also known as Gehu ki Kheer, is is a sweet dish specially made and eaten in the Indian state of Rajasthan on the festival of Makar Sankranti."
+description: "Gehoo ka Kheech (Gehu ki Kheer) is a sweet dish specially made and eaten in the Indian state of Rajasthan on the festival of Makar Sankranti."
 type: post
 image: "images/youtube_video_cover_images/-sMK7VII-lo.jpg"
 
