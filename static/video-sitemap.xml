@@ -491,4 +491,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/makka-ka-papad/</loc>
+			<video:video>
+				<video:title>Makka ka Papad</video:title>
+				<video:publication_date>2021-01-29T04:32:08+00:00</video:publication_date>
+				<video:description>Makka Ke Papad is a Rajasthani tradional recipe made usually in winters. We are making these Makka ke Papads with traditional style using a wood stove.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/4D7UDqm2uxY</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/4D7UDqm2uxY.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
