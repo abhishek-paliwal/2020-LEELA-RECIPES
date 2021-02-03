@@ -505,4 +505,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/methi-ke-laddu/</loc>
+			<video:video>
+				<video:title>Methi Ke Laddu (Dana Methi Ladoo)</video:title>
+				<video:publication_date>2021-02-03T02:56:12+00:00</video:publication_date>
+				<video:description>Methi ke Laddu are good for the winters. These laddoos are very beneficial for people with diabetes. These laddus are also very Healthy.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/dEAXv9RaBlA</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/dEAXv9RaBlA.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
