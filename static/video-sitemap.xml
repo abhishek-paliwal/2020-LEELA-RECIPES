@@ -519,4 +519,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/mooli-ka-paratha/</loc>
+			<video:video>
+				<video:title>Mooli Ka Paratha</video:title>
+				<video:publication_date>2021-02-09T03:21:31+00:00</video:publication_date>
+				<video:description>Mooli ka paratha looks very healthy and can be made easily. You can eat radish parathas with curd, tomato suace or any chutney.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/twBvfSaY-yQ</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/twBvfSaY-yQ.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
