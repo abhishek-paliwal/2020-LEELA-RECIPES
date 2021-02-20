@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Bhature Recipe Without Yeast"
 date: 2021-02-18T02:28:53
 description: "Learn with video instructions about how to make soft and puffed Bhatura. Bhatura is very easy to make at home, needing only a few ingredients."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/1EmpSl44FRA.jpg"
 
 url: /bhature-recipe-without-yeast/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "1EmpSl44FRA"
 
 categories: 
   - "Breakfast"
