@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Sabudana Cutlet"
 date: 2021-02-26T03:08:41
 description: "Sabudana Cutlet is usually eaten during fasts, or whenever you feel like eating it. It can be eaten with green chutney, or curd."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/xDYpsLg4LSc.jpg"
 
 url: /sabudana-cutlet/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "xDYpsLg4LSc"
 
 categories: 
   - "Breakfast"
