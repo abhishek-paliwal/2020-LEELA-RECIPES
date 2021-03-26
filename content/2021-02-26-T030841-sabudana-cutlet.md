@@ -56,7 +56,7 @@ recipeInstructions:
     recipeInstructionsList:
     - "First of all, wash the Sabudana thoroughly and soak it for 2 hours." 
     - "After 2 hours we will remove all the water from it, At this time, our sabudana has melted and has also swollen." 
-    - "Now we will mash the boiled potatoes and mix it in the sabudana, and will also add coarsed peanuts to the mixture." 
+    - "Now we will mash the boiled potatoes and mix it in the sabudana, and will also add coarse peanuts to the mixture." 
     - "Now add chopped green chillies, coriander, cumin powder, black salt, rock salt, black pepper powder, lemon juice and one teaspoon of ghee to the mixture." 
     - "Mix everything well until combined. Roll the mixture into small balls, and then flatten each ball to make patty (tikki / cutlet). Repeat the same with the remaining mixture." 
     - "Now heat the oil in a pan, and  shallow fry from both the sides. You can also deep fry cutlets, if you want." 
