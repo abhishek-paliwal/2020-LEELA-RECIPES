@@ -603,4 +603,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/aam-panna/</loc>
+			<video:video>
+				<video:title>Aam Panna (Raw Mango Summer Drink)</video:title>
+				<video:publication_date>2021-03-26T02:57:48+00:00</video:publication_date>
+				<video:description>Aam Panna is a very healthy drink enjoyed by many in the summer season. It reduces the risk of sunstroke. We use raw mangoes to make this drink.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/YOUTUBE_ID</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/YOUTUBE_ID.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
