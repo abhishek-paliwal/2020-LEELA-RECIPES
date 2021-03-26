@@ -79,7 +79,7 @@ recipeInstructions:
     - "Now we'll put the sieve on top of the pot and let the rolls cook in steam for 15-20 minutes." 
     - "Turn off the gas and cool the leaves and cut them round." 
     - "After that, place the pan on the gas and put oil in it and prepare the tempering for the leaves. Add asafetida, mustard seeds, cumin seeds, green pepper ginger, garlic onion paste and fry for 2-3 minutes." 
-    - "Add tomato paste and all the dry spices, and add a little water. Sauté them well." 
+    - "Add tomato paste and all the dry spices, and add a little water. Saute them well." 
     - "Now add sliced rolls to the spices and mix well, and then add lemon juice." 
     - "Our Colocasia leaves stir fry (Gujarati Patra) is ready. Take it out in the serving bowl and decorate it with desiccated coconut." 
 
