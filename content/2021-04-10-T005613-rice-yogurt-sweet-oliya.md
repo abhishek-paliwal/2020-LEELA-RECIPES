@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Rice Yogurt Sweet Oliya"
 date: 2021-04-10T00:56:13
-description: "POST_DESCRIPTION"
+description: "Rajasthani traditional Oliya is made using rice and yogurt and usually made on Sheetla Saptami festival as Prasad for Mataji."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/p4sEpBh_dSA.jpg"
 
 url: /rice-yogurt-sweet-oliya/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "p4sEpBh_dSA"
 
 categories: 
   - "Breakfast"
@@ -31,7 +31,7 @@ aggregateRating:
   ratingCount: 3
 
 nutrition:
-  calories: xyz calories
+  calories: 502 calories
   servingSize: 1
 
 recipe_keywords: "Rice Yogurt Sweet Oliya"
@@ -70,9 +70,9 @@ recipeNotes:
 
 {{< leelasrecipes-button-block-for-recipe-here-link >}}
 
-LONG_TEXT_HERE
+Let's make for Rajasthan's Traditional Oliya Recipe. It is mostly made on Sheetla Saptami festival. Oliya is also considered to be the Prasad of Mataji.
 
-> LONG_TEXT_HERE
+> This recipe is made with yogurt and rice. It is made the day before and eaten cold on the second day. 
 
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/rice-yogurt-sweet-oliya-1.jpg" alt="Image of Rice Yogurt Sweet Oliya" >}}
 

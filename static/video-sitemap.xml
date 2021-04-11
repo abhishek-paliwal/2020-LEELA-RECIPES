@@ -636,9 +636,9 @@
 			<video:video>
 				<video:title>Rice Yogurt Sweet Oliya</video:title>
 				<video:publication_date>2021-04-10T00:56:13+00:00</video:publication_date>
-				<video:description>POST_DESCRIPTION</video:description>
-				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/YOUTUBE_ID</video:player_loc>
-				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/YOUTUBE_ID.jpg</video:thumbnail_loc>
+				<video:description>Rajasthani traditional Oliya is made using rice and yogurt and usually made on Sheetla Saptami festival as Prasad for Mataji.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/p4sEpBh_dSA</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/p4sEpBh_dSA.jpg</video:thumbnail_loc>
 	      <video:width>1920</video:width>
 				<video:height>1080</video:height>
 				<video:family_friendly>yes</video:family_friendly>
