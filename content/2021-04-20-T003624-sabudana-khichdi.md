@@ -6,11 +6,11 @@ title: "Sabudana Khichdi"
 date: 2021-04-20T00:36:24
 description: "Sabudana Khichdi is made using small Sabudana. It is mostly eaten during fasts and is very easy to make with few ingredients."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/bP3nHbCfRaM.jpg"
 
 url: /sabudana-khichdi/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "bP3nHbCfRaM"
 
 categories: 
   - "Breakfast"
@@ -56,7 +56,8 @@ recipeInstructions:
     - "Wash Sabudana a couple of times and keep in water for 1 hour." 
     - "After 1 hour, remove all the water from Sabudana and leave it like this for 10 minutes." 
     - "Now place the oil in a pan on the stove and add cumin seeds and chopped potatoes. Mix them and leave them to cook." 
-    - "After the potatoes become soft, add chopped green chillies and stir them for 1 to 2 minutes. Add Sabudana to this mixture and mix well." 
+    - "After the potatoes become soft, add chopped green chillies and stir them for 1 to 2 minutes."
+    - "Add Sabudana to this mixture and mix well." 
     - "Now add coarsely ground peanuts to it and stir it continuously. Do not leave it because it sticks to the bottom." 
     - "Now add black pepper powder, rock salt, and lemon juice and mix it well. We will also put some coriander leaves." 
     - "Your Sabudana Khichdi (Sago pudding) is ready. If you like it sweet, then you can also add a little sugar to it." 
