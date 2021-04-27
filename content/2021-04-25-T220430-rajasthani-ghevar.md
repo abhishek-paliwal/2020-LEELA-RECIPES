@@ -7,11 +7,11 @@ date: 2021-04-25T22:04:30
 description: "Traditional Rajasthani Ghevar can be made easily made at home without mold. Ghevar is mostly made on the occasion of the Teej festival."
 
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/v9SFpxj50f4.jpg"
 
 url: /rajasthani-ghevar/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "v9SFpxj50f4"
 
 categories: 
   - "Breakfast"
