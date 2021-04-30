@@ -8,11 +8,11 @@ date: 2021-04-29T07:51:46
 description: "Semolina Milk Cream Laddus are very easy to make and can be made with very few ingredients. These Laddus are indeed very healthy and tasty."
 
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/8wVaWSWV_BY.jpg"
 
 url: /semolina-milk-cream-laddu/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "8wVaWSWV_BY"
 
 categories: 
   - "Breakfast"
