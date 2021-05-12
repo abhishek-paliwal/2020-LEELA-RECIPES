@@ -729,4 +729,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/rajasthani-besan-gatte-ki-sabzi/</loc>
+			<video:video>
+				<video:title>Rajasthani Besan Gatte Ki Sabzi</video:title>
+				<video:publication_date>2021-05-12T05:07:03+00:00</video:publication_date>
+				<video:description>People's favorite Rajasthani Besan Gatte ki Sabzi is very easy to make at home. Let’s learn how to make it in simple and easy to understand way.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/qn_SVcWPGek</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/qn_SVcWPGek.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
