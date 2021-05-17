@@ -6,11 +6,11 @@ title: "Crunchy Masala Namak Pare"
 date: 2021-05-17T00:52:01
 description: "Crunchy Masala Namak Pare are very tasty and can be made using few ingredients. You can enjoy them with tea or as a simple satisfying snack anytime."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/rw5LXyJ2RYc.jpg"
 
 url: /masala-namak-pare/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "rw5LXyJ2RYc"
 
 categories: 
   - "Breakfast"
