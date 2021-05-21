@@ -4,13 +4,13 @@ steps_images_present: "yes"
 
 title: "Tarbooz Ke Chhilke Ka Halwa - Watermelon Rind Pudding"
 date: 2021-05-20T04:53:15
-description: "Tarbooz Ka Halwa, aka Watermelon Rind Pudding is very tasty and can be made using few ingredients. You can enjoy it with tea or as a simple satisfying snack anytime."
+description: "Tarbooz Ke Chhilke Ka Halwa, aka Watermelon Rind Pudding is very tasty and can be made using few ingredients. You can enjoy it with tea or as a simple satisfying snack anytime."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/hQLCXOZm7Xg.jpg"
 
 url: /tarbooz-chhilka-halwa-watermelon-rind-pudding/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "hQLCXOZm7Xg"
 
 categories: 
   - "Breakfast"
