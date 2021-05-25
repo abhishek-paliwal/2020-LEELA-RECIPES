@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Mango Semolina Cake (Without Oven)"
 date: 2021-05-23T06:17:01
 description: "Mango Semolina Cake is a dessert needing only a few ingredients. Instead of an oven, we will be using a pressure cooker for making this cake."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/3LB18_jEuv4.jpg"
 
 url: /mango-semolina-cake/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "3LB18_jEuv4"
 
 categories: 
   - "Breakfast"
