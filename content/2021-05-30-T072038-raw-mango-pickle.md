@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Raw Mango Pickle (Aam Ka Achaar)"
 date: 2021-05-30T07:20:38
 description: "Summer season has arrived. It's usually the time many families opt for making Raw Mango Pickle. You can enjoy this dish with Roti or Paratha anytime."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/v4flC-fhiR8.jpg"
 
 url: /raw-mango-pickle/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "v4flC-fhiR8"
 
 categories: 
   - "Breakfast"
@@ -62,12 +62,8 @@ recipeInstructions:
     - "We will also heat mustard oil and keep it to cool down for 3-4 hours." 
     - "Now to the spices that we have taken in the pot, add half a kilo of cooled-down mustard oil and mix them well." 
     - "Now cover raw mango pieces in spices little by little. Then, keep them in a clean glass jar." 
-    - "Repeat this process for all the raw mango pieces, and fill-up the glass jar." 
-    - "Add all the remaining spices into the jar. Tie the mouth of the glass jar tightly with a cloth." 
-    - "Stir the pickle mixture in the glass jar every 2-3 days, so that it does not spoil." 
-    - "After 3-4 days, we will put the leftover cooled-down mustard oil in the pickle too." 
-    - "Even after adding oil, we have to keep stirring the pickle every 1-2 days, so that the oil and the spices mix well to make the best tasting pickle." 
-    - "Our delicious Raw Mango Pickle is ready. Enjoy it anytime with Roti or Paratha. " 
+    - "Repeat this process for all the raw mango pieces, and fill-up the glass jar. Add all the remaining spices into the jar. Tie the mouth of the glass jar tightly with a cloth. Stir the pickle mixture in the glass jar every 2-3 days, so that it does not spoil. After 3-4 days, we will put the leftover cooled-down mustard oil in the pickle too. Even after adding oil, we have to keep stirring the pickle every 1-2 days, so that the oil and the spices mix well to make the best tasting pickle." 
+    - "Our delicious Raw Mango Pickle is ready. Enjoy it anytime with Roti or Paratha." 
 
 recipeNotes:
   - "You can also make it in the summer, and store it throughout the year." 
