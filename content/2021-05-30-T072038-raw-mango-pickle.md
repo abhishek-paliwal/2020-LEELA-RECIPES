@@ -57,7 +57,7 @@ recipeIngredient:
 recipeInstructions:
   - recipeInstructionsTitle: "For making Raw Mango Pickle"
     recipeInstructionsList:
-    - "First we will wash the sliced ​​raw mango pieces thoroughly for 2-3 hours. Dry in the shade." 
+    - "First we will wash the sliced ​​raw mango pieces thoroughly, and then dry in the shade for for 2-3 hours." 
     - "We will take a big pot and mix all the above spices and lentils." 
     - "We will also heat mustard oil and keep it to cool down for 3-4 hours." 
     - "Now to the spices that we have taken in the pot, add half a kilo of cooled-down mustard oil and mix them well." 
