@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Kache Aam ka Murabba"
 date: 2021-06-04T06:30:52
 description: "Kache Aam ka Murabba is indeed very tasty. You can eat it with bread, chapati, or paratha. It's sweet and sour taste is very much liked by children."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/eKSGoV-0kuY.jpg"
 
 url: /kache-aam-ka-murabba/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "eKSGoV-0kuY"
 
 categories: 
   - "Breakfast"
