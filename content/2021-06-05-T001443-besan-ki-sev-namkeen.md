@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Besan Ki Sev Namkeen"
 date: 2021-06-05T00:14:43
 description: "During the rainy season, many want to eat Crispy Besan Ki Sev Namkeen. You can make it easily at home with very few ingredients. You can make and enjoy it with tea or as a snack."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/t1vvRTNVu0A.jpg"
 
 url: /besan-ki-sev-namkeen/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "t1vvRTNVu0A"
 
 categories: 
   - "Breakfast"
