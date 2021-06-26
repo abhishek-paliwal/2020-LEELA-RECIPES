@@ -70,7 +70,7 @@ recipeNotes:
 
 {{< leelasrecipes-button-block-for-recipe-here-link >}}
 
-Let's make for Rajasthan's Traditional Oliya Recipe. It is mostly made on Sheetla Saptami festival. Oliya is also considered to be the Prasad of Mataji.
+Let's make the Traditional Oliya Recipe of Rajasthan. It is mostly made on Sheetla Saptami festival. Oliya is also considered to be the Prasad of Mataji.
 
 > This recipe is made with yogurt and rice. It is made the day before and eaten cold on the second day. 
 

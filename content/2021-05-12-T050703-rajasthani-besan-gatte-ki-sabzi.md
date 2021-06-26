@@ -76,14 +76,14 @@ recipeInstructions:
     - "First let's make Gatta. To make it, add all the spices in the gram flour (besan) and add curd and knead a good dough." 
     - "We will break 3-4 large Balls of kneaded gram flour dough and make thick gram flour rolled cylinders." 
     - "We will allow the water in the pan to boil well and the Besan Gatta will be left in the water for boiling." 
-    - "Cover the top and let it boil for 20 minutes. After it cools, cut the rolled cylineders into small pieces." 
+    - "Cover the top and let it boil for 20 minutes. After it cools, cut the rolled cylinders into small pieces." 
     - "Do not throw the gram flour water left after boiling the gatta. Pour it in the gravy. After that and add water as needed." 
     - "Now, we will make Gravy. To make gravy, place the pan on the gas and add oil to it. After the oil gets hot, add asafetida and mustard seeds, and let them crackle well." 
     - "We will also add the ginger, garlic, onion and green chilli paste and allow it to cook well." 
     - "Now add all the dry spices and fry them for 2 to 3 minutes and after adding a little water and curd. We will cook the spices a little longer. Now we will add more water as needed." 
     - "After water boils, add chopped gram flour chunks and put the lid on and allow it to boil / cook for 5 minutes by covering the lid." 
     - "Finally add coriander leaves and turn off the gas." 
-    - "Your tasty and delighful Rajasthani Besan Gatte ki Sabzi is ready to be served." 
+    - "Your tasty and delightful Rajasthani Besan Gatte ki Sabzi is ready to be served." 
 
 recipeNotes:
   - "No notes." 
