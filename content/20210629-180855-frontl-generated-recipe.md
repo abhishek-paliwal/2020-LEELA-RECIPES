@@ -1,0 +1,78 @@
+---
+my_custom_variable: "custom_variable_value"
+steps_images_present: "no"
+
+title: "Banana Shake"
+date: 2021-06-29T06:08:55
+description: "Banana Shake is indeed very tasty. You can make it and enjoy anytime during summers. It's super tasty and super healthy. It can be made easily."
+type: post
+image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+
+url: /banana-shake/
+
+youtube_video_id: "YOUTUBE_ID"
+
+categories: 
+  - "Breakfast"
+
+tags:
+  - "Vegetarian"
+
+prepTime: PT2M
+cookTime: PT8M
+totalTime: PT10M
+
+recipeCategory: Breakfast
+recipeCuisine: Indian
+recipeYield: 4
+
+aggregateRating:
+  ratingValue: 4.9
+  ratingCount: 4
+
+nutrition:
+  calories: 120 calories
+  servingSize: 1
+
+recipe_keywords: "Banana Shake"
+
+recipeIngredient:
+  - recipeIngredientTitle: "For Banana Shake"
+    recipeIngredientList:
+    - "Bananas, 2" 
+    - "Milk, 1 Glass" 
+    - "Cardamom Powder, 1/2 Tsp" 
+    - "Honey, 1 Tsp" 
+    - "Dry Fruits, 1 Tsp" 
+    - "Mint Leaves (for decoration)" 
+
+recipeInstructions:
+  - recipeInstructionsTitle: "For making Banana Shake"
+    recipeInstructionsList:
+    - "Peel the banana into pieces and grind it in a mixer jar adding in a spoon of honey and milk." 
+    - "If you do not have honey, you can also add sugar. " 
+    - "You can also add ice cubes to it." 
+    - "Pour the shake in a serving glass or jar, and add cardamom powder and dry fruits. Garnish with mint leaves, and serve it cold." 
+    - "Our Banana Shake is ready. You can also make "Banana Shake" and enjoy it in summer season to energize yourself." 
+
+recipeNotes:
+  - "No notes." 
+
+---
+
+{{< leelasrecipes-button-block-for-recipe-here-link >}}
+
+During the summer months, many families opt for making Banana Shake. In Hindi language, it's known as "Kele ka Shake".
+
+So, today we will learn to make Banana Shake. You can make it easily at home with very few ingredients. 
+
+> Banana Shake is indeed very tasty. You can make it and enjoy anytime during summers. It's super tasty and super healthy. 
+
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/banana-shake-1.jpg" alt="Image of Banana Shake" >}}
+
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/banana-shake-2.jpg" alt="Image of Banana Shake" >}}
+
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/banana-shake-3.jpg" alt="Image of Banana Shake" >}}
+
+{{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
+
