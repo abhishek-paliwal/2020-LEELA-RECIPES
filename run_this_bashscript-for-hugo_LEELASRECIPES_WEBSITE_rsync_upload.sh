@@ -115,10 +115,10 @@ echo "Hugo site generated. Now R-syncing is about to begin. Please be ready to e
 
 echo ">>> BEGIN: Final backup to DH server ..." ;
 ## Defining some variables
-USER="abhiannu_clients"
-HOST="ps575942.dreamhostps.com"
+USER="$DREAMHOST_USER_CLIENTS"
+HOST="$DREAMHOST_SERVER"
 INPUT_DIR="$DIR_GITHUB/2020-LEELA-RECIPES/public/"
-OUTPUT_DIR="/home/abhiannu_clients/leelasrecipes.com/"
+OUTPUT_DIR="/home/$DREAMHOST_USER_CLIENTS/leelasrecipes.com/"
 
 echo "########################################" ;
 echo "INPUT_DIR : $INPUT_DIR " ;
@@ -145,7 +145,7 @@ success "$FINAL_MSG" ;
 echo "$FINAL_MSG" ;
 
 ## Opening website (Works on MAC OS only).
-echo ">>>> Opening website = https://www.leelasrecipes.com"
+# echo ">>>> Opening website = https://www.leelasrecipes.com"
 # open https://www.leelasrecipes.com
 
 ##################################################################
