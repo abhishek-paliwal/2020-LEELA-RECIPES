@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Kacche Aam Ki Launji"
 date: 2021-07-27T03:49:43
 description: "We will make Kacche Aam Ki Launji using raw mangoes. You can make it with jaggery or sugar."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/kQKo86tc_Us.jpg"
 
 url: /kacche-aam-ki-launji/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "kQKo86tc_Us"
 
 categories: 
   - "Breakfast"
