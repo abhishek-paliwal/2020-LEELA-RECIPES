@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Butterscotch Ice Cream"
 date: 2021-08-03T04:49:50
 description: "Butterscotch Ice Cream is very easy to make at home. It is made with very few ingredients. Summer season is the best for enjoying Butterscotch Ice Cream."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/UozEQFyiz1A.jpg"
 
 url: /butterscotch-ice-cream/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "UozEQFyiz1A"
 
 categories: 
   - "Dessert"
