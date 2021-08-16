@@ -1,6 +1,7 @@
 #!/bin/sh
 ##############################################################################
-THIS_SCRIPT_NAME="run_this_bashscript-for-hugo_LEELASRECIPES_WEBSITE_rsync_upload.sh"
+THIS_SCRIPT_NAME="$(basename $0)" ;
+THIS_SCRIPT_NAME_SANS_EXTENSION="$(echo $THIS_SCRIPT_NAME | sed 's/\.sh//g')" ;
 ##############################################################################
 
 ##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -36,6 +37,11 @@ debug "Read it's help by running: >> bash $DIR_GITHUB/Bash-Scripts-To-Make-Life-
 ##------------------------------------------------------------------------------
 
 ##############################################################################
+## SETTING VARIABLES
+WORKDIR="$DIR_Y/_OUTPUT_$THIS_SCRIPT_NAME_SANS_EXTENSION" ;
+mkdir -p $WORKDIR ; ## create dir if not exists
+cd $WORKDIR ;
+##
 HUGO_PROJECT_DIR="$(pwd)" ;
 info ">>>> HUGO_PROJECT_DIR = $HUGO_PROJECT_DIR " ;
 
