@@ -42,7 +42,7 @@ WORKDIR="$DIR_Y/_OUTPUT_$THIS_SCRIPT_NAME_SANS_EXTENSION" ;
 mkdir -p $WORKDIR ; ## create dir if not exists
 cd $WORKDIR ;
 ##
-HUGO_PROJECT_DIR="$(pwd)" ;
+HUGO_PROJECT_DIR="$REPO_LEELA" ;
 info ">>>> HUGO_PROJECT_DIR = $HUGO_PROJECT_DIR " ;
 
 ##############################################################################
