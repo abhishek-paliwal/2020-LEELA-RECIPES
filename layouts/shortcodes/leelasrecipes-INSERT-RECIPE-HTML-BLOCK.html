@@ -142,13 +142,10 @@
                     {{ range .recipeInstructionsList }}
                     {{ $.Scratch.Set "counterStep" (add ($.Scratch.Get "counterStep") 1) }}
 
-                    <li id='step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}' style='color: blue; font-size: 1.4rem; margin-left:0.5em;'><span
-                            style='color: black; font-size: 0.9rem;'>{{ . }}</span>
-                        
-                    <br>
+                    <li id='step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}'>{{ . }}</li>
+
                     <div style='display: {{ $.Scratch.Get "displayType" }};'><img src='https://www.leelasrecipes.com/recipe-steps-images/{{ $newURL }}/{{ $newURL }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg' alt='Image of the cooking step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}} for {{ $.Page.Params.title }}' ></div>
-                    
-                    </li>
+                   
                     {{ end }}
                 </ol>
                 {{ end }}
@@ -177,8 +174,7 @@
     <h3>NOTES AND TIPS:</h3>
     <ol>
         {{ range .Page.Params.recipeNotes }}
-        <li style='color: blue; font-size: 1.4rem; margin-left:0.5em;'><span
-                style='color: black; font-size: 0.9rem;'>{{ . }}</span></li>
+        <li>{{ . }}</li>
         {{ end }}
     </ol>
 

@@ -70,6 +70,38 @@ color:#ff6f00 ;
     color: blue ;
 }
 
+/**************/
+ ol {
+  list-style:none;
+  counter-reset:mycounter;
+  padding:0;
+  line-height: 1.5; 
+}
+
+ol li {
+  position:relative; 
+  margin-left: 30px;
+  padding:5px;
+  color:#000;
+  font-size: 1em; 
+}
+
+ol li:before {
+  content:counter(mycounter); 
+  counter-increment:mycounter;
+  position:absolute;
+  top:5px; /* keep this same as padding on ol li block above */
+  left:-30px;
+  width:25px;
+  height:25px;
+  line-height:25px;
+  border-radius:50%;
+  color:#fff;
+  background: blue;
+  text-align:center;
+}
+/**************/
+
 
 /***************************************************************************/
 /***** IMPORTANT NOTE : KEEP the following block at the end of this css file *****/
