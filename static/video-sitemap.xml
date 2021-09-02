@@ -981,4 +981,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/lauki-muthia-doodhi-muthia/</loc>
+			<video:video>
+				<video:title>Lauki Muthia (Doodhi Nu Muthia)</video:title>
+				<video:publication_date>2021-09-01T06:21:38+00:00</video:publication_date>
+				<video:description>Lauki Muthia (Doodhi Nu Muthia) is a Gujarati dish. You eat it as breakfast in the morning or with tea in the evening.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/YOUTUBE_ID</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/YOUTUBE_ID.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
