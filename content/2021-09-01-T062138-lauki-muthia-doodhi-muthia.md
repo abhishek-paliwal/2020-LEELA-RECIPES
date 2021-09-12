@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Lauki Muthia (Doodhi Nu Muthia)"
 date: 2021-09-01T06:21:38
 description: "Lauki Muthia (Doodhi Nu Muthia) is a Gujarati dish. You eat it as breakfast in the morning or with tea in the evening."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/ICzFiPFVM5I.jpg"
 
 url: /lauki-muthia-doodhi-muthia/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "ICzFiPFVM5I"
 
 categories: 
   - "Breakfast"
