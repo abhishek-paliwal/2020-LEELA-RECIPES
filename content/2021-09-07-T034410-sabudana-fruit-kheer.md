@@ -1,16 +1,16 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Sabudana Fruit Kheer (Sago Fruit Kheer)"
 date: 2021-09-07T03:44:10
 description: "The ingredients needed to make Sabudana Fruit Kheer are easily available at home. This Kheer is very easy to make."
 type: post
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/kZ8Fsxk-SOw.jpg"
 
 url: /sabudana-fruit-kheer/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "kZ8Fsxk-SOw"
 
 categories: 
   - "Breakfast"
