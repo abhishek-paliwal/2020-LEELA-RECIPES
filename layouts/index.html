@@ -103,7 +103,7 @@
           <img class="img-fluid mb-4" src="{{.Params.Image | absURL }}" alt="post-thumb">
           <p class="text-uppercase mb-2">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
           <h4 class="title-border"><a href="{{.Permalink}}">{{.Title}}</a></h4>
-          <p>{{.Page.Params.description}}</p>
+          <p>{{ .Page.Params.description }}</p>
           <a href="{{.Permalink}}" class="btn">// Read full recipe //</a>
         </article>
       </div>
