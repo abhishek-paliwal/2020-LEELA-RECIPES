@@ -1037,4 +1037,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/mini-samosa/</loc>
+			<video:video>
+				<video:title>Mini Samosa (Crispy and crunchy)</video:title>
+				<video:publication_date>2021-10-06T01:07:02+00:00</video:publication_date>
+				<video:description>Mini Samosas are best for breakfast. You can make it and take it on your long trips. They are very tasty and spicy.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/BlyThEhKxsU</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/BlyThEhKxsU.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
