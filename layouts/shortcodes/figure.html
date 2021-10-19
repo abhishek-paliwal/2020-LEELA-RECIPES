@@ -1,0 +1,13 @@
+<!-- Parsing and Modifying some variables -->
+{{ $image := .Get "src" }}
+{{ $image0 := path.Base $image }}
+{{ $urlPrefix := "https://cdn.leelasrecipes.com/images/" }}
+{{ $image800 := printf "%s%s%s" $urlPrefix "800px/800px-" $image0 }}
+{{ $image675 := printf "%s%s%s" $urlPrefix "675px/675px-" $image0 }}
+{{ $image550 := printf "%s%s%s" $urlPrefix "550px/550px-" $image0 }}
+{{ $image425 := printf "%s%s%s" $urlPrefix "425px/425px-" $image0 }}
+{{ $image350 := printf "%s%s%s" $urlPrefix "350px/350px-" $image0 }}
+
+<figure>
+<img loading="lazy" src='{{ $image }}' alt='{{ .Get "alt" }}' data-pin-title='{{ .Get "alt" }}' data-pin-description='{{ .Get "alt" }}' width="800" height="1200" sizes="(max-width: 800px) 100vw, 800px" srcset='{{ $image800 }} 800w, {{ $image675 }} 675w, {{ $image550 }} 550w, {{ $image425 }} 425w, {{ $image350 }} 350w '>
+</figure>

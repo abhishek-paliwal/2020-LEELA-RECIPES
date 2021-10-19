@@ -142,9 +142,32 @@
                     {{ range .recipeInstructionsList }}
                     {{ $.Scratch.Set "counterStep" (add ($.Scratch.Get "counterStep") 1) }}
 
-                    <li id='step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}'>{{ . }}</li>
-
-                    <div style='display: {{ $.Scratch.Get "displayType" }};'><img src='https://www.leelasrecipes.com/recipe-steps-images/{{ $newURL }}/{{ $newURL }}-step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}.jpg' alt='Image of the cooking step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}} for {{ $.Page.Params.title }}' ></div>
+        <li id='step-{{$.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}}'>
+            {{ . | safeHTML }}
+        </li>
+        
+        {{ $var1 := $.Scratch.Get "counterSection" }}
+        {{ $var2 := $.Scratch.Get "counterStep" }}
+        
+        {{ $image := (printf "%s%s%s%s%s%d%s%d%s" "https://www.mygingergarlickitchen.com/wp-content/recipe-steps-images/"
+        $newURL "/" $newURL "-step-" $var1 "-" $var2 ".jpg") }}
+        
+        {{ $image0 := path.Base $image }}
+        {{ $urlPrefix := "https://cdn.leelasrecipes.com/images/" }}
+        {{ $image800 := printf "%s%s%s" $urlPrefix "800px/800px-" $image0 }}
+        {{ $image675 := printf "%s%s%s" $urlPrefix "675px/675px-" $image0 }}
+        {{ $image550 := printf "%s%s%s" $urlPrefix "550px/550px-" $image0 }}
+        {{ $image425 := printf "%s%s%s" $urlPrefix "425px/425px-" $image0 }}
+        {{ $image350 := printf "%s%s%s" $urlPrefix "350px/350px-" $image0 }}
+        
+        <div style='display: {{ $.Scratch.Get "displayType" }};'>
+            <figure>
+                <img loading="lazy" src='{{ $image }}' width='100%' height='100%'
+                    alt='Image of the cooking step-{{ $.Scratch.Get "counterSection"}}-{{$.Scratch.Get "counterStep"}} for {{ $.Page.Params.title }}'
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    srcset='{{ $image800 }} 800w, {{ $image675 }} 675w, {{ $image550 }} 550w, {{ $image425 }} 425w, {{ $image350 }} 350w '>
+            </figure>
+        </div>
                    
                     {{ end }}
                 </ol>
