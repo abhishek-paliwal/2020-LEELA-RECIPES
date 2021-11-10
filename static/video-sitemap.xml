@@ -1079,4 +1079,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/mawa-gujiya/</loc>
+			<video:video>
+				<video:title>Mawa Gujiya (Festival Recipe)</video:title>
+				<video:publication_date>2021-11-09T03:38:45+00:00</video:publication_date>
+				<video:description>Learn the method of making Mawa Gujiya. You can easily make Gujiya at home during festivals. Gujiya is very tasty.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/Pdw1FZ50eDc</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/Pdw1FZ50eDc.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
