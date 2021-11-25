@@ -1093,4 +1093,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/coconut-barfi-kopra-pak/</loc>
+			<video:video>
+				<video:title>Coconut Barfi (Kopra Pak)</video:title>
+				<video:publication_date>2021-11-24T02:32:37+00:00</video:publication_date>
+				<video:description>Coconut Barfi (Kopra Pak) is a sweet which is very easy to make at home, and it is ready very quickly.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/HaB2xsxHD3E</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/HaB2xsxHD3E.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
