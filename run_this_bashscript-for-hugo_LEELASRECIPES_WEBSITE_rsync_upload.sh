@@ -85,9 +85,11 @@ read -p ">>>>>>>>>>>>>>>>> IF ALL IS OKAY SO FAR, then press ENTER key to contin
 echo ;
 
 ##############################################################################
-## BEGIN: DELETE FUNCTION DEFINITION ###############
+## BEGIN: DELETE FUNCTION DEFINITIONS ###############
+##############################################################################
+
 function DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY () {
-  ###### STEP 2a: DELETING EVERYTHING INSIDE PUBLIC DIRECTORY ###################################
+  ###### STEP 2: DELETING EVERYTHING INSIDE PUBLIC DIRECTORY ###################################
   info ">>> BEGIN: DELETING EVERYTHING INSIDE PUBLIC DIRECTORY = $HUGO_PROJECT_DIR/public/* ..." ;
   ## Audio notification (Mac OS only command.).
   echo "Planning to delete everything inside hugo public directory to save space on hard disk." ;
@@ -100,62 +102,62 @@ function DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY () {
   info ">>> END: DELETING EVERYTHING INSIDE PUBLIC DIRECTORY ..." ;
   echo "Everything deleted ... " ;
 }
-## END: DELETE FUNCTION DEFINITION ###############
-
-## Calling the above function
-#DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY
-
-###### STEP 2b: RUNNING HUGO COMMAND ###################################
-echo "Now creating whole website using hugo ... " ;
-
-info ">>> BEGIN: HUGO command running ..." ;
-hugo ;
-info "<<< DONE: HUGO command successfully ran." ;
-echo ;
-
+####
+function CREATE_HUGO_WEBSITE_AND_SYNC_TO_WEBSERVER () {
+  ###### STEP 3: RUNNING HUGO COMMAND + SYNCING HUGO NOTES WEBSITE TO SERVER 
+  echo "Now creating whole website using hugo ... " ;
+  info ">>> BEGIN: HUGO command running ..." ;
+  hugo ;
+  info "<<< DONE: HUGO command successfully ran." ;
+  echo ;
+  ##
+  ## Audio notification (Mac OS only command.).
+  echo "Hugo site generated. Now R-syncing is about to begin. Please be ready to enter your password." ;
+  ##
+  echo ">>> BEGIN: Final backup to DH server ..." ;
+  ## Defining some variables
+  USER="$DREAMHOST_USER_CLIENTS"
+  HOST="$DREAMHOST_SERVER"
+  INPUT_DIR="$DIR_GITHUB/2020-LEELA-RECIPES/public/"
+  OUTPUT_DIR="/home/$DREAMHOST_USER_CLIENTS/leelasrecipes.com/"
+  ##
+  echo "########################################" ;
+  echo "INPUT_DIR : $INPUT_DIR " ;
+  echo "OUTPUT_DIR : $OUTPUT_DIR " ;
+  echo "USER : $USER " ;
+  echo "HOST : $HOST " ;
+  echo "########################################" ;
+  ##
+  cd $INPUT_DIR ;
+  echo "PWD is $(pwd)" ;
+  echo "########################################" ;
+  echo "BEGIN: RSYNCing..." ;
+  rsync -avz --delete $INPUT_DIR ${USER}@${HOST}:${OUTPUT_DIR} ;
+  warn ">>>>IF ERRORS, run the following command:" ;
+  warn "rsync -avz --delete $INPUT_DIR $USER@$HOST:$OUTPUT_DIR" ;
+  echo ;
+  echo "########################################" ;
+  echo "DONE: RSYNCing..." ;
+  echo "########################################" ;
+  ##
+  ## FINAL AUDIO MESSAGE
+  FINAL_MSG="Hugo site has been uploaded to server. Have fun! But not before checking it." ;
+  success "$FINAL_MSG" ;
+  echo "$FINAL_MSG" ;
+  ## Opening website (Works on MAC OS only).
+  # echo ">>>> Opening website = https://www.leelasrecipes.com"
+  # open https://www.leelasrecipes.com
+}
 ##############################################################################
-###### STEP 3: SYNCING HUGO NOTES WEBSITE TO SERVER ###################################
+## END: DELETE FUNCTION DEFINITIONS ###############
+##############################################################################
 
-## Audio notification (Mac OS only command.).
-echo "Hugo site generated. Now R-syncing is about to begin. Please be ready to enter your password." ;
+## Calling above functions
+#DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY
+#CREATE_HUGO_WEBSITE_AND_SYNC_TO_WEBSERVER
 
-echo ">>> BEGIN: Final backup to DH server ..." ;
-## Defining some variables
-USER="$DREAMHOST_USER_CLIENTS"
-HOST="$DREAMHOST_SERVER"
-INPUT_DIR="$DIR_GITHUB/2020-LEELA-RECIPES/public/"
-OUTPUT_DIR="/home/$DREAMHOST_USER_CLIENTS/leelasrecipes.com/"
-
-echo "########################################" ;
-echo "INPUT_DIR : $INPUT_DIR " ;
-echo "OUTPUT_DIR : $OUTPUT_DIR " ;
-echo "USER : $USER " ;
-echo "HOST : $HOST " ;
-echo "########################################" ;
-
-cd $INPUT_DIR ;
-echo "PWD is $(pwd)" ;
-echo "########################################" ;
-echo "BEGIN: RSYNCing..." ;
-rsync -avz --delete $INPUT_DIR ${USER}@${HOST}:${OUTPUT_DIR} ;
-warn ">>>>IF ERRORS, run the following command:" ;
-warn "rsync -avz --delete $INPUT_DIR $USER@$HOST:$OUTPUT_DIR" ;
-echo ;
-echo "########################################" ;
-echo "DONE: RSYNCing..." ;
-echo "########################################" ;
-
-## FINAL AUDIO MESSAGE
-FINAL_MSG="Hugo site has been uploaded to server. Have fun! But not before checking it." ;
-success "$FINAL_MSG" ;
-echo "$FINAL_MSG" ;
-
-## Opening website (Works on MAC OS only).
-# echo ">>>> Opening website = https://www.leelasrecipes.com"
-# open https://www.leelasrecipes.com
 
 ##################################################################
-
 ## FINAL STEP: EMPTYING HUGO PUBLIC DIRECTORY TO SAVE SPACE ON HARD DISK
 ## BY CALLING DELETE FUNCTION
 DELETE_EVERYTHING_IN_HUGO_PUBLIC_DIRECTORY
