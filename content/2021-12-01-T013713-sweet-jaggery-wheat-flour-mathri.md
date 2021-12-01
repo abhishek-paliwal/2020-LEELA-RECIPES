@@ -2,17 +2,17 @@
 my_custom_variable: "custom_variable_value"
 steps_images_present: "yes"
 
-title: "Sweet Jaggery Flour Mathri"
+title: "Sweet Jaggery Wheat Flour Mathri"
 
 date: 2021-12-01T01:37:13
 
-description: "Sweet Jaggery Flour Mathri are made using wheat flour and jaggery. These mathris are easy to make and can be stored for 10-15 days."
+description: "Sweet Jaggery Wheat Flour Mathri are made using wheat flour and jaggery. These mathris are easy to make and can be stored for 10-15 days."
 
 type: post
 
 image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
 
-url: /sweet-jaggery-flour-mathri/
+url: /sweet-jaggery-wheat-flour-mathri/
 
 youtube_video_id: "YOUTUBE_ID"
 
@@ -38,10 +38,10 @@ nutrition:
   calories: 26 calories
   servingSize: 1
 
-recipe_keywords: "Sweet Jaggery Flour Mathri"
+recipe_keywords: "Sweet Jaggery Wheat Flour Mathri"
 
 recipeIngredient:
-  - recipeIngredientTitle: "For Sweet Jaggery Flour Mathri"
+  - recipeIngredientTitle: "For Sweet Jaggery Wheat Flour Mathri"
     recipeIngredientList:
     - "Jaggery -250 grams" 
     - "Water (as needed) - 1/2 bowl" 
@@ -52,7 +52,7 @@ recipeIngredient:
     - "Semolina - 1 tablespoon" 
 
 recipeInstructions:
-  - recipeInstructionsTitle: "For making Sweet Jaggery Flour Mathri"
+  - recipeInstructionsTitle: "For making Sweet Jaggery Wheat Flour Mathri"
     recipeInstructionsList:
     - "In a vessel, dissolve the jaggery in water thoroughly. Jaggery should be dissolved well in water, then filter the water of jaggery in another vessel so that no other object or pebbles etc. remain in the jaggery in it." 
     - "Now sieve the wheat flour in a vessel and after adding sesame, fennel and semolina, add hot oil and mix all the things well. Keep in mind that the oil is hot, so do not mix it by hand, mix it with a spoon." 
@@ -68,16 +68,16 @@ recipeNotes:
 
 {{< leelasrecipes-button-block-for-recipe-here-link >}}
 
-Today we are going to make Sweet Jaggery Flour Mathri. So let's see how to make this crispy and sweet Jaggery Flour Mathri.
+Today we are going to make Sweet Jaggery Wheat Flour Mathri. So let's see how to make this crispy and sweet Jaggery Wheat Flour Mathri.
 
 > These mathris are very easy to make and can be stored for 10 to 15 days.
 
 
-{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-flour-mathri-1.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-wheat-flour-mathri-1.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
 
-{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-flour-mathri-2.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-wheat-flour-mathri-2.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
 
-{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-flour-mathri-3.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-wheat-flour-mathri-3.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
 
 {{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
 
