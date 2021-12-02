@@ -10,11 +10,11 @@ description: "Sweet Jaggery Flour Mathri are made using wheat flour and jaggery.
 
 type: post
 
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/i27RzBXgby8.jpg"
 
-url: /sweet-jaggery-flour-mathri/
+url: /jaggery-wheat-flour-mathri/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "i27RzBXgby8"
 
 categories: 
   - "Breakfast"
@@ -73,11 +73,11 @@ Today we are going to make Sweet Jaggery Flour Mathri. So let's see how to make 
 > These mathris are very easy to make and can be stored for 10 to 15 days.
 
 
-{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-flour-mathri-1.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/jaggery-wheat-flour-mathri-1.jpg" alt="Image of Jaggery Wheat Flour Mathri" >}}
 
-{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-flour-mathri-2.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/jaggery-wheat-flour-mathri-2.jpg" alt="Image of Jaggery Wheat Flour Mathri" >}}
 
-{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/sweet-jaggery-flour-mathri-3.jpg" alt="Image of Sweet Jaggery Flour Mathri" >}}
+{{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/jaggery-wheat-flour-mathri-3.jpg" alt="Image of Jaggery Wheat Flour Mathri" >}}
 
 {{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
 
