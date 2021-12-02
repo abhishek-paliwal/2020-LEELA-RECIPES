@@ -2,7 +2,7 @@
 my_custom_variable: "custom_variable_value"
 steps_images_present: "yes"
 
-title: "Sweet Jaggery Flour Mathri"
+title: "Jaggery Wheat Flour Mathri (Sweet)"
 
 date: 2021-12-01T01:37:13
 
