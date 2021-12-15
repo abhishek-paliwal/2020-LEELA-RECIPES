@@ -1110,11 +1110,25 @@
 	<url>
 			<loc>https://www.leelasrecipes.com/jaggery-wheat-flour-mathri/</loc>
 			<video:video>
-				<video:title>Sweet Jaggery Flour Mathri</video:title>
+				<video:title>Jaggery Wheat Flour Mathri (Sweet)</video:title>
 				<video:publication_date>2021-12-01T01:37:13+00:00</video:publication_date>
 				<video:description>Sweet Jaggery Flour Mathri are made using wheat flour and jaggery. These mathris are easy to make and can be stored for 10-15 days.</video:description>
 				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/i27RzBXgby8</video:player_loc>
 				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/i27RzBXgby8.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/nan-khatai/</loc>
+			<video:video>
+				<video:title>Nan Khatai</video:title>
+				<video:publication_date>2021-12-12T21:09:52+00:00</video:publication_date>
+				<video:description>Nan Khatai is very easy and quick to make at home with only a few ingredients. It only takes about 30 minutes to make.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/JQc91e0F3JI</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/JQc91e0F3JI.jpg</video:thumbnail_loc>
 	      <video:width>1920</video:width>
 				<video:height>1080</video:height>
 				<video:family_friendly>yes</video:family_friendly>
