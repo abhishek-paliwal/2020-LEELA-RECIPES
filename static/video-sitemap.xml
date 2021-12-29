@@ -1135,4 +1135,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/green-chilli-pickle-hari-mirch-ka-achaar/</loc>
+			<video:video>
+				<video:title>Green Chilli Pickle (Hari Mirch Ka Achaar)</video:title>
+				<video:publication_date>2021-12-26T07:04:24+00:00</video:publication_date>
+				<video:description>Hari Mirch ka Achaar is very easy and quick to make at home. You can eat this Hari Mirch ka Achaar with paratha or chapati.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/RDZ5hcjOcqw</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/RDZ5hcjOcqw.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
