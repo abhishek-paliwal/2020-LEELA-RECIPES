@@ -1163,4 +1163,18 @@
 				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
 			</video:video>
 	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/corn-sabji/</loc>
+			<video:video>
+				<video:title>Corn ki Sabji (Dhaba Style)</video:title>
+				<video:publication_date>2022-02-12T06:02:19+00:00</video:publication_date>
+				<video:description>We will be making Dhaba-Style Corn Sabzi, which is very easy to make at home. You can eat Corn Sabzi with Chapati, Paratha, or Poori.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/p3IdcUGXZrQ</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/p3IdcUGXZrQ.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
 </urlset>
