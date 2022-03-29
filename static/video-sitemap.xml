@@ -1192,20 +1192,6 @@
 			</video:video>
 	</url>
 	<url>
-			<loc>https://www.leelasrecipes.com/rice-kheer/</loc>
-			<video:video>
-				<video:title>Rice Kheer</video:title>
-				<video:publication_date>2022-03-09T08:36:43+00:00</video:publication_date>
-				<video:description>Let's learn how to make Rice Kheer, aka Rice Pudding. You can eat Rice Kheer hot or cold.</video:description>
-				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/YOUTUBE_ID</video:player_loc>
-				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/YOUTUBE_ID.jpg</video:thumbnail_loc>
-	      <video:width>1920</video:width>
-				<video:height>1080</video:height>
-				<video:family_friendly>yes</video:family_friendly>
-				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
-			</video:video>
-	</url>
-	<url>
 			<loc>https://www.leelasrecipes.com/choco-balls/</loc>
 			<video:video>
 				<video:title>Choco Balls from Parle-G Biscuits</video:title>
@@ -1227,6 +1213,20 @@
 				<video:description>Watermelon juice is very beneficial. It keeps us fresh even in the harshest hot weather and also contains vitamin A.</video:description>
 				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/0e6BkkG8sGM</video:player_loc>
 				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/0e6BkkG8sGM.jpg</video:thumbnail_loc>
+	      <video:width>1920</video:width>
+				<video:height>1080</video:height>
+				<video:family_friendly>yes</video:family_friendly>
+				<video:uploader info='https://www.leelasrecipes.com/'></video:uploader>
+			</video:video>
+	</url>
+	<url>
+			<loc>https://www.leelasrecipes.com/rice-kheer/</loc>
+			<video:video>
+				<video:title>Rice Kheer</video:title>
+				<video:publication_date>2022-03-28T08:36:43+00:00</video:publication_date>
+				<video:description>Let's learn how to make Rice Kheer, aka Rice Pudding. You can eat Rice Kheer hot or cold.</video:description>
+				<video:player_loc allow_embed="yes">https://www.youtube.com/embed/wMdl4tdG-YA</video:player_loc>
+				<video:thumbnail_loc>https://www.leelasrecipes.com/images/youtube_video_cover_images/wMdl4tdG-YA.jpg</video:thumbnail_loc>
 	      <video:width>1920</video:width>
 				<video:height>1080</video:height>
 				<video:family_friendly>yes</video:family_friendly>
