@@ -1,20 +1,20 @@
 ---
 my_custom_variable: "custom_variable_value"
-steps_images_present: "no"
+steps_images_present: "yes"
 
 title: "Palak Paratha (Spinach Flatbread)"
 
 date: 2022-07-17T03:46:45
 
-description: "POST_DESCRIPTION"
+description: "Palak Parathas are made very easily with the ingredients available at home. Palak Parathas are not only tasty but also very nutritious."
 
 type: post
 
-image: "images/youtube_video_cover_images/YOUTUBE_ID.jpg"
+image: "images/youtube_video_cover_images/L3bPkY90raA.jpg"
 
 url: /palak-paratha-spinach-flatbread/
 
-youtube_video_id: "YOUTUBE_ID"
+youtube_video_id: "L3bPkY90raA"
 
 categories: 
   - "Breakfast"
@@ -88,4 +88,5 @@ Let's learn how to make Palak Paratha.
 {{< figure src="https://www.leelasrecipes.com/images/masonary-post/2021/palak-paratha-spinach-flatbread-3.jpg" alt="Image of palak Paratha Spinach Flatbread" >}}
 
 {{< leelasrecipes-INSERT-RECIPE-HTML-BLOCK >}}
+
 
