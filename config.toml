@@ -76,7 +76,7 @@ address = "India"
 # Contact Form Action
 contact_form_action = "#"
 # Google Analytics
-google_analitycs_id = "UA-48712319-10"
+# google_analitycs_id = ""
 # copyright
 copyright = "Copyright &copy; 2022 Leela's Recipes"
 
