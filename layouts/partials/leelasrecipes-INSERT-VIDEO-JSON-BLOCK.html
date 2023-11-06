@@ -18,7 +18,7 @@
       ],
       "contentUrl": "https://youtu.be/{{ .Params.youtube_video_id }}",
       "embedUrl": "https://www.youtube.com/embed/{{ .Params.youtube_video_id }}",
-      "uploadDate": "{{ substr .Params.date 0 10 }}"
+      "uploadDate": "{{ substr .Params.date 0 10 }}T00:00:00+0000"
     }
 
   </script>
