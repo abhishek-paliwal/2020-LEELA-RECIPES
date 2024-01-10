@@ -78,7 +78,7 @@ contact_form_action = "#"
 # Google Analytics
 # google_analitycs_id = ""
 # copyright
-copyright = "Copyright &copy; 2022 Leela's Recipes"
+copyright = "Copyright &copy; 2024 Leela's Recipes"
 
 # Instagram feed
 [params.instafeed]
